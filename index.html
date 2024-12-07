@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yishan's Arts</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .divider {
+            width: 100%; 
+            height: 20px; 
+            background-color: #333; 
+            margin: 20px 0;
+            border-radius: 5px; 
+        }
+    </style>
+    <style>
+        .subdivider {
+            width: 100%; 
+            height: 14px; 
+            background-color: #9398b5; 
+            margin: 20px 0;
+            border-radius: 5px; 
+            }
+    </style>      
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <h1 class="name">Yishan Hou <br>侯 懿珊</h1>
+            <ul class="menu">
+                <li><a href="#about_me">About Me｜关于我</a></li>
+                <li><a href="#my_arts">My Arts｜我的作品</a>
+                    <ul class="submenu">
+                        <li><a href="#digital_painting">Digital Painting｜数码绘画</a></li>
+                        <li><a href="#online_interactive">Online Interactive｜线上互动</a></li>
+                        <li><a href="#sound">Sound｜声音</a></li>
+                        <li><a href="#game">Game｜游戏</a></li>
+                        <li><a href="#video">Video｜视频</a></li>
+                        <li><a href="#physical_mixed">Physical｜实体作品</a></li>
+                        <li><a href="#character_story">Character Story｜OC故事</a></li>
+                        
+                        <li><a href="#others">Others｜其他尝试</a></li>
+                    </ul>
+                </li>
+                
+                <li><a href="#contact">Contact｜联系我</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <!-- Carousel Section -->
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/example1.jpg" alt="Example 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/example2.png" alt="Example 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/example3.png" alt="Example 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/example4.jpg" alt="Example 4">
+                    </div>
+                </div>
+                <button class="carousel-button prev" onclick="prevSlide()">&#10094;</button>
+                <button class="carousel-button next" onclick="nextSlide()">&#10095;</button>
+                <div class="carousel-indicators">
+                    <span class="dot active" onclick="goToSlide(0)"></span>
+                    <span class="dot" onclick="goToSlide(1)"></span>
+                    <span class="dot" onclick="goToSlide(2)"></span>
+                    <span class="dot" onclick="goToSlide(3)"></span>
+                </div>
+            </div>
+
+            <!-- Main Sections -->
+<section id="about_me">
+    <h2>About Me 关于我</h2>
+    <p>
+        <a href="Yishan_Hou_Resume.pdf" download="Yishan_Hou_Resume.pdf" class="resume-link">Click here to download Resume 点击此处下载简历</a>
+    </p>
+    <p>
+        I’m Yishan Hou, a digital artist from Beijing, China, born in 2002. Currently, I’m studying Art & Tech at the School of the Art Institute of Chicago (SAIC), where I’ll graduate in the spring of 2025. As a freelance illustrator and independent game developer, I craft interactive experiences that blend storytelling, technology, and emotion. My work often combines deep reds, white, and black, with vibrant colors to evoke a range of moods. Through creative coding, I produce art that breaks conventional boundaries and is accessible to all.
+    </p>
+    <p>
+        In my creations, I build immersive worlds and characters, inspired by fairy tales and personal experiences. Each piece offers an opportunity to explore, interact, and connect—transforming imagination into reality. My projects merge the artistry of 2D interaction with the precision of engineering and computer science, reflecting the innovative spirit of my generation.
+    </p>
+    <p>
+        For me, art is a conversation. It sparks connections, provokes thought, and creates spaces where each interaction reveals something new. My work lies at the crossroads of creativity and technology, a place for discovery and personal engagement.
+    </p>
+    <p>
+        我是侯懿珊，来自中国北京的数字艺术家，2002年出生。目前，我在芝加哥艺术学院（SAIC）攻读艺术与科技专业，将于2025年春季毕业。作为自由插画师和独立游戏开发者，我致力于创作融合故事、技术与情感的互动体验。我的作品常常将深红、白和黑的色调与鲜艳的色彩相结合，以唤起不同的情绪。通过创意编码，我的艺术作品突破传统界限，力求让每个人都能感受到其中的魅力。
+    </p>
+    <p>
+        我的创作灵感源自童话故事与个人经历，在其中构建出引人入胜的世界与角色。每一件作品都为观众提供了探索、互动与联结的机会，将想象力转化为触手可及的现实。我的项目融合了二维互动艺术与工程、计算机科学的精准，展现了我们这一代人对创新的追求。
+    </p>
+    <p>
+        对我来说，艺术是一种对话。它激发联系，启发思考，创造空间，让每一次互动都带来新的发现。我的作品处于创意与技术的交汇点，提供了一个充满探索与个人参与的空间。
+    </p>
+</section>
+<br><div class="divider"></div><br>
+            <section id="my_arts">
+                <h2>My Arts 我的作品</h2>
+    <p>I use a variety of mediums for self-expression, and self-expression through art has always been a theme in my life. In this way, I engage in self-potential and emotional exploration. I create art to show people the characters and stories I write. In my freelance illustrator practice, I illustrate different clients or other artists in their imaginary worlds.</p>
+    <p>我使用各种媒介进行自我表达，通过艺术进行自我表达一直是我生活的主题。通过这种方式，我进行自我潜能和情感探索。我进行艺术创作，向人们展示我笔下的人物和故事。在我的自由插画师实践中，我为不同的客户或其他艺术家绘制他们想象中的世界。</p>
+            </section>
+
+            <section id="digital_painting">
+                <div class="category">
+                    <h2>Digital Painting 数码绘画</h2>
+                    <!-- <p>这里展示绘画作品。</p> -->
+
+                    <div class="subcategory">
+                        <div class="accordion-container">
+                            <button class="accordion">Series of works｜系列作品</button>
+                            <div class="panel">
+                                <div class="series">
+                                    <h3>Series 1: <i>Red and Black series｜红与黑</i></h3>
+                                    <p>This series portrays an apocalyptic world, exploring the physical manifestations of fear in human society through distorted and eerie depictions of both the interior and exterior. There is no clear boundary between the inside and outside—the spaces are filled with alienation and distortion of reality. Outside the window, a horrific landscape unfolds in a blend of black and red, reminiscent of a Hyakki Yakō procession, while the interior serves as both a gaze and reflection on this world. Here, fear is no longer just an element of the supernatural or the unknown; it is the result of human society’s own twisted transformation. Each piece aims to reveal the invisible threats that transcend conventional definitions of fear, becoming an oppressive presence we cannot escape.</p>
+                                    <p>这个系列作品描绘了一个末日般的世界，通过窗内外的扭曲与诡异景象，探索了人类社会恐惧的具象化。画中的室内和窗外没有清晰的界限，所有的空间都充满了对现实的异化与变形。窗外是一个黑红交织的恐怖景象，仿佛百鬼夜行，而窗内则是对这种世界的凝视与反思。在这里，恐惧不再仅仅是神秘或超自然的元素，而是人类社会自我扭曲后的呈现。每一幅作品都试图揭示那种无形的威胁，它们超越了传统的恐惧定义，转化为一种存在于我们周围、无法逃避的压迫感。</p>
+                                    <div class="image-grid">
+                                        <img class="image-thumb" src="images/series/series1-img1.jpg" alt="Series 1 Image 1" data-description="Mingle in the Room: Red and black will dance, producing fingernails, nosebleeds, and streaming spikes《屋内的混杂》：红色和黑色将翩翩起舞，产生指甲、鼻血和流淌的尖刺。">
+                                        <img class="image-thumb" src="images/series/series1-img2.jpg" alt="Series 1 Image 2" data-description="Meteor Falling Outside the Window: Meteors will hit the earth, which may be relief of the Hyakki Yakō outside.《流星坠落窗外》：流星将撞击地球，这可能是窗外百鬼夜行的解脱。">
+                                        <img class="image-thumb" src="images/series/series1-img3.jpg" alt="Series 1 Image 3" data-description="L’insoutenable légèreté de l’être: None 《不能承受的生命之轻》：空无一物">
+                                    </div>
+                                </div>
+                                <div class="series">
+                                    <h3>Series 2: <i>The Seed｜种子</i></h3>
+                                    <p>I imagine Chicago as a city sprouting new shoots, with <i>Cloud Gate</i> representing that seed. The connections between people are like an electronic neural network, spreading in all directions. My artwork, through photo collages, reflects this idea, with textures and patterns sourced from imprints on the walls, streets, and wheels of Chicago's Loop district. They capture the city's vitality and the connections between people.</p> 
+                                    <p>我将芝加哥想象成一颗长出嫩芽的种子，而《云门》就是那颗种子。城市的连接像电子神经网络，横竖交织，蔓延至每个角落。我的作品通过照片拼贴画呈现这一构想，纹理和肌理来源于芝加哥Loop区街道上的各种墙壁、道路和车轮上的印痕。它们反映了城市的生命力和人与人之间的连接。</p>
+                                    <div class="image-grid">   
+                                        <img class="image-thumb" src="images/series/series2-img1.jpg" alt="Series 2 Image 1">
+                                        <img class="image-thumb" src="images/series/series2-img2.jpg" alt="Series 2 Image 2">
+                                        <img class="image-thumb" src="images/series/series2-img3.jpg" alt="Series 2 Image 3">
+                                        <img class="image-thumb" src="images/series/series2-img4.jpg" alt="Series 2 Image 4">
+                                        <img class="image-thumb" src="images/series/series2-img5.jpg" alt="Series 2 Image 5">
+                                    </div>
+                                </div>
+                                <div class="series">
+                                    <h3>Series 3: <i>Mental topography｜心理地形图</i></h3>
+                                    <p>I miss studying psychology in high school. As inspiration, I used Freud's concept of “ego-ego- superego” to create a topographical map of myself, showing the process of datamining my emotions.</p>
+                                    <p>我怀念高中学习心理学的时光。作为灵感来源，我利用弗洛伊德的 “自我-自我-超我 ”概念绘制了一幅自己的地形图，展示了我对情绪进行数据化的过程。</p>
+                                    <div class="image-grid">
+                                        <img class="image-thumb" src="images/series/series3-img1.jpg" alt="Series 3 Image 1">
+                                        <img class="image-thumb" src="images/series/series3-img2.jpg" alt="Series 3 Image 2">
+                                    </div>
+                                </div>
+                                
+                                <div class="series">
+                                    <h3>Series 4: <i>Magician's Prophecy｜魔术师的预言</i></h3>
+                                    <p>This is a long-term project, through the study of mystics, to carry out the tarot card, a kind of divination method in mystics. Through studying the styles of different series of tarot cards, the illustration creation with narrative and ritual sense is derived. In the project, I created unique images, complexity, and decorative characteristics based on Tarot culture. I drew four narrative illustration works based on my text.</p>
+                                    <p>这是一个长期项目，通过对神秘主义者的研究，将塔罗牌这种神秘主义者的占卜方法付诸实践。通过研究不同系列塔罗牌的风格，衍生出具有叙事性和仪式感的插画创作。在这个项目中，我以塔罗牌文化为基础，创造了独特的形象、复杂性和装饰性特征。我根据文本绘制了四幅叙事性插图作品。</p>
+                                        <h5>Picture 1</h5>
+                                            <p>In the dark room, a magician opens his desk, telling about the birth of human desire. The Holy cup, coin, swords on the table, and the wand on the magician's hand are a collection of four elements of the lesser Arcana. All of them converge into a circle, becoming the center and no longer the center. It was an important ritual, and the power-absorbing magician created the following three stories. </p>
+                                            <p>在黑暗的房间里，一位魔术师打开书桌，讲述人类欲望的诞生。桌上的圣杯、硬币、剑，以及魔术师手上的魔杖，集合了小阿卡纳的四种元素。所有元素汇聚成圆，成为中心，又不再是中心。这是一个重要的仪式，吸收力量的魔术师创造了以下三个故事。</p>
+                                        <h5>Picture 2</h5>
+                                            <p>In the corridor extending far away, animals on the left and right guard the cauldron in the middle. A giant mushroom is being heated, the symmetrical decoration on both sides and repeated floor pattern show that the steam of the mushroom brings illusion. Human beings who indulge in illusion are killed and become fuel, forming the Samsara of the wheel of fortune. </p>
+                                            <p>在向远处延伸的走廊上，左右两边的动物守护着中间的大锅。一朵巨大的蘑菇正在加热，两边对称的装饰和重复的地板花纹表明，蘑菇的蒸汽会带来幻觉。沉溺于幻觉的人类会被杀死，成为燃料，形成风水轮流转的三世轮回。</p>
+                                        <h5>Picture 3</h5>
+                                            <p>On a long sailing ship, the hanged man hanging on the sail symbolizes a trial. The man who wants to go deep in the water stands at the mast listening to the sound waves, the drunken man sails, and the man who comes from the sea devours his fellow man. The devil is singing the trumpet, attracting the fish with the secret in the belly to take the bait. They come from afar, following the guidance of the hermits who incarnate as fish and are full of motivation to move forward in this sea trial. </p>
+                                            <p>在一艘长长的帆船上，悬挂在帆上的吊死鬼象征着一场审判。想深入水底的人站在桅杆旁聆听声波，醉酒的人扬帆起航，从海里来的人吞噬同伴。魔鬼唱着号角，吸引着腹中有秘密的鱼儿上钩。他们远道而来，跟随化身为鱼的隐士的指引，在这场海试中充满了前进的动力。</p>
+                                        <h5>Picture 4</h5>
+                                            <p>On the path in the forest, the knight holding the banner of the sun returned. The twisted branches and leaves in the distance are bleeding, and those in the near are gradually withering. The knight met a traveler who had been swallowed up by the devil. Behind him is a 'Tower' symbolizing destruction, suggesting that he is trapped in layers of mist. The eyes of temptation are watching, he may be a savior or just another failed conqueror. </p>
+                                            <p>在森林的小路上，手持太阳旗帜的骑士回来了。远处扭曲的枝叶在流血，近处的枝叶逐渐枯萎。骑士遇到了一位被恶魔吞噬的旅人。他的身后是一座象征毁灭的 “塔”，暗示他被困在层层迷雾之中。诱惑的眼睛在注视着，他可能是救世主，也可能只是又一个失败的征服者。</p>
+                                            <div class="image-grid">
+                                        <img class="image-thumb" src="images/series/series4-img1.jpg" alt="Series 4 Image 1">
+                                        <img class="image-thumb" src="images/series/series4-img2.jpg" alt="Series 4 Image 2">
+                                        <img class="image-thumb" src="images/series/series4-img3.jpg" alt="Series 4 Image 3">
+                                        <img class="image-thumb" src="images/series/series4-img4.jpg" alt="Series 4 Image 4">
+                                    </div>
+                                </div>
+                                
+                                <div class="series">
+                                    <h3>Series 5: Flower and Wood Carving｜花和木雕</h3>
+                                    <p>I wanted to present a story about the meaning of life in the form of a picture book. In the story, there are two opposite expressions of life force, or different ways of living, so to speak.
+
+                                        <br>The inspiration for this story came from the wood carving and the flowers in my home. For as long as I can remember, no matter how many things have been moved in and out of my home, and how many things have been placed next to the wood carving, it has never been moved from its place, it just seems to grow there. Flowers in a vase at home, on the other hand, go through the process of blooming, wilting, and being replaced in a matter of a week. I hope to work with these two physical objects that show life force in different ways and present a metaphorical narrative of wood carving and flowers in the form of a picture book. The story presents two opposite embodiments of life, which can also be described as different outlooks on life.
+                                    <br><br>The story is unfolded from the witch's house. The wood carving and flower in the room admire each other and want to be each other. The flower has a short lifespan, but it is full of vitality when it blooms, which is what the unchanging woodcarving yearns for. The woodcarving has a long life and can always show its static beauty, which is what flower longs for. With the help of the witch, they got their wish and exchanged souls. Finally, the flower withered, and the soul of the flower watched the soul of the woodcarving dissipate.</p>
+                                    <p>我想以图画书的形式讲述一个关于生命意义的故事。在故事中，有两种截然相反的生命力表达方式，也可以说是不同的生活方式。
+
+                                        <br>这个故事的灵感来源于我家的木雕和花卉。从我记事起，不管家里的东西搬进搬出多少次，也不管木雕旁边摆放了多少东西，它从来没有离开过自己的位置，似乎就长在那里。而家里花瓶里的花朵，一周之内就会经历盛开、枯萎、更换的过程。我希望通过这两种以不同方式展现生命力的实物，以图画书的形式展现木雕和鲜花的隐喻叙事。故事呈现了两种截然相反的生命体现，也可以说是不同的人生观。
+                                    <br><br>故事从女巫的房子展开。房间里的木雕和花朵互相欣赏，希望成为对方。花的寿命很短，但它绽放时充满生机，这正是一成不变的木雕所向往的。木雕的寿命很长，可以永远展现出静态的美，这也是花朵所向往的。在女巫的帮助下，他们如愿以偿，交换了灵魂。最后，花儿凋谢了，花儿的灵魂看着木雕的灵魂消散。</p>
+                                        <div class="image-grid">
+                                        <img class="image-thumb" src="images/series/series5-img1.jpg" alt="Series 5 Image 1" data-description="Witch's house: At the foot of the mountain in the forest, there is a house full of magic, in which lives a witch.    女巫的房子：在森林的山脚下，有一座充满魔法的房子，里面住着一位女巫。">
+                                        <img class="image-thumb" src="images/series/series5-img2.jpg" alt="Series 5 Image 2" data-description="Objects in the house: There are many objects in the house，
+                                        mirrors, hourglasses, teacups, magic books, conch shells, wood carvings, beakers, pendulums, jars, scales, and flowers. When the witch was in the house, she could often hear them whispering.  房子里的物品： 房子里有许多物品
+                                        镜子、沙漏、茶杯、魔法书、海螺壳、木雕、烧杯、钟摆、罐子、天平和花。女巫在屋子里的时候，经常能听到他们在窃窃私语。">
+                                        <img class="image-thumb" src="images/series/series5-img3.jpg" alt="Series 5 Image 3" data-description="Flowers and wood carving: When flower and Woodcarving talk about life, they both show longing for each other.    花和木雕：当花朵和木雕谈论生命时，它们都表现出对彼此的渴望。">
+                                        <img class="image-thumb" src="images/series/series5-img4.jpg" alt="Series 5 Image 4" data-description="
+                                        The witch hears the discussion of flowers and wood carving: The witch heard the discussion of flowers and wood carvings in the room, and she wants to exchange their souls with magic. 女巫听到了花和木雕的讨论：女巫在房间里听到了花雕和木雕的讨论，她想用魔法交换它们的灵魂。">
+                                        <img class="image-thumb" src="images/series/series5-img5.jpg" alt="Series 5 Image 5" data-description="Soul swap: With the help of the witch, the ritual of soul exchange began, and they realized their wishes. 灵魂交换： 在女巫的帮助下，灵魂交换仪式开始了，他们实现了自己的愿望。">
+                                        <img class="image-thumb" src="images/series/series5-img6.jpg" alt="Series 5 Image 6" data-description="The fading of flowers: The end of the short bloom of flowers is the coming of death and the flowers wither. 花朵凋谢：短暂花期的结束意味着死亡的来临，花朵凋谢。">
+                                        <img class="image-thumb" src="images/series/series5-img7.jpg" alt="Series 5 Image 7" data-description="Woodcarving soul dissipates: At this time, the woodcarving soul in flower's body dissipated, and he chose the way he wanted to show the meaning of life. 木雕灵魂消散：此时，花朵体内的木雕灵魂消散，他选择了自己想要的方式来展现生命的意义。">
+                                    </div>
+                                </div>
+                                
+                                <div class="series">
+                                    <h3>Series 6:<i>Space Junk｜太空垃圾</i></h3>
+                                    <p>Painting and photography. These resilient scraps of paper once tried to connect with outer space through a microphone, but unfortunately, they have become space junk.</p>
+                                    <p>绘画和摄影。这些不屈的纸片曾试图通过麦克风与外太空连接，然而，不幸的是，它们最终成了太空垃圾。</p>
+                                    <div class="image-grid">
+                                        <img class="image-thumb" src="images/series/series6-img1.jpg" alt="Series 6 Image 1">
+                                        <img class="image-thumb" src="images/series/series6-img2.jpg" alt="Series 6 Image 2">
+                                        <img class="image-thumb" src="images/series/series6-img3.jpg" alt="Series 6 Image 3">
+                                        <img class="image-thumb" src="images/series/series6-img4.jpg" alt="Series 6 Image 4">
+                                        <img class="image-thumb" src="images/series/series6-img5.jpg" alt="Series 6 Image 5">
+                                        <img class="image-thumb" src="images/series/series6-img6.jpg" alt="Series 6 Image 6">
+                                        <img class="image-thumb" src="images/series/series6-img7.jpg" alt="Series 6 Image 7">
+                                        <img class="image-thumb" src="images/series/series6-img8.jpg" alt="Series 6 Image 8">
+                                    </div>
+                                </div>
+                                
+                                <div class="series">
+                                    <h3>Series 7: <i>100 Different Dreams (Private Commission)｜100张不同的梦想（私人稿件）</i></h3>
+                                    <p>I have drawn over 100 original characters created by others, and I am honored to be a part of depicting their worlds. I love original characters because they connect me with others and serve as a way for me to seek out the things I cherish.</p>
+                                    <p>我画了100多张其他人的原创角色，很荣幸能成为描绘他们世界的一部分。我热爱原创角色，因为它们让我与他人建立联系，也成为我寻找自己珍惜事物的一种方式。</p>
+                                    <div class="image-grid">
+                                        <img class="image-thumb" src="images/series/series7-img1.jpg" alt="Series 7 Image 1">
+                                        <img class="image-thumb" src="images/series/series7-img2.jpg" alt="Series 7 Image 2">
+                                        <img class="image-thumb" src="images/series/series7-img3.jpg" alt="Series 7 Image 3">
+                                        <img class="image-thumb" src="images/series/series7-img4.jpg" alt="Series 7 Image 4">
+                                        <img class="image-thumb" src="images/series/series7-img5.jpg" alt="Series 7 Image 5">
+                                        <img class="image-thumb" src="images/series/series7-img6.jpg" alt="Series 7 Image 6">
+                                        <img class="image-thumb" src="images/series/series7-img7.jpg" alt="Series 7 Image 7">
+                                        <img class="image-thumb" src="images/series/series7-img8.jpg" alt="Series 7 Image 8">
+                                        <img class="image-thumb" src="images/series/series7-img9.jpg" alt="Series 7 Image 9">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        <button class="accordion">Fine Arts｜纯艺</button>
+                        <div class="panel">
+                            <div class="image-grid">
+                                <img class="image-thumb" src="images/fine_arts/art1.jpg" alt="art1">
+                                <img class="image-thumb" src="images/fine_arts/art2.jpg" alt="art2">
+                                <img class="image-thumb" src="images/fine_arts/art3.jpg" alt="art3">
+                                <img class="image-thumb" src="images/fine_arts/art4.jpg" alt="art4">
+                                <img class="image-thumb" src="images/fine_arts/art5.jpg" alt="art5" data-description="Self- portrait, Overflow, 38.9*54.6cm, Acrylic painting.During the outbreak of COVID-19. This self-portrait of me wants to express the release and explosion of repressed emotions through the collision between the sense of bondage caused by covering my head and the sense of color and light.自画像《溢出》（丙烯绘画）：COVID-19 爆发期间。我的这幅自画像希望通过蒙头带来的束缚感与色彩和光线的碰撞，表达压抑情绪的释放和爆发。">
+                                <img class="image-thumb" src="images/fine_arts/art6.jpg" alt="art6">
+                                <img class="image-thumb" src="images/fine_arts/art7.jpg" alt="art7">
+                                <img class="image-thumb" src="images/fine_arts/art8.jpg" alt="art8">
+                                <img class="image-thumb" src="images/fine_arts/art9.jpg" alt="art9" data-description="Self- portrait, ‘I’: I imagine myself as a specimen being studied in a research lab, documented in history and stored in a museum. The technological aspect of this permanent storage makes me feel safe. 自画像《我》：我把自己想象成一个标本，在研究实验室里被研究，在历史上被记录，在博物馆里被储存。这种永久储存的技术层面让我感到安全。">
+                                <img class="image-thumb" src="images/fine_arts/art10.jpg" alt="art10">
+                                <img class="image-thumb" src="images/fine_arts/art11.jpg" alt="art11" data-description="With the development of science and technology, life is more convenient, and at the same time, environmental pollution is more and more serious. Most of the time, people only pay attention to the convenience brought by the development of science and technology, ignoring the more and more serious environmental problems. 随着科学技术的发展，人们的生活越来越便利，与此同时，环境污染也越来越严重。大多数时候，人们只关注科技发展带来的便利，却忽视了越来越严重的环境问题。">
+                                <img class="image-thumb" src="images/fine_arts/art12.jpg" alt="art12" data-description="At the same time, when human beings use science and technology to control nature, they may go astray and cause irreversible consequences. Under the control of scientific means and the polluted environment, all kinds of plants are not developing in the direction of human hope. 同时，人类在利用科学技术控制自然时，也可能会误入歧途，造成不可挽回的后果。在科学手段和污染环境的控制下，各种植物并没有朝着人类希望的方向发展。">
+                                <img class="image-thumb" src="images/fine_arts/art13.jpg" alt="art13" data-description="From the perspective of environmental pollution and gene variation, the project focused on the practice of biological art through research. After a lot of research, I began to make an installation project with the theme of mutated plants. 从环境污染和基因变异的角度出发，该项目着重通过研究进行生物艺术实践。经过大量研究，我开始制作以变异植物为主题的装置项目。">
+                                <img class="image-thumb" src="images/fine_arts/art14.jpg" alt="art14" data-description="From the perspective of poetry and irony, the project shows that the uncertain future world causes environmental pollution due to human manipulation, and more prominently stimulates human intervention to develop genetically mutated plants. 该项目从诗歌和反讽的角度出发，展示了未来世界的不确定性导致人类操纵造成的环境污染，更突出的是刺激人类干预，发展出基因突变的植物。">
+                                <img class="image-thumb" src="images/fine_arts/art15.jpg" alt="art15">
+                                <img class="image-thumb" src="images/fine_arts/art16.jpg" alt="art16">
+                                <img class="image-thumb" src="images/fine_arts/art17.jpg" alt="art17">
+                                <img class="image-thumb" src="images/fine_arts/art18.jpg" alt="art18">
+                                <img class="image-thumb" src="images/fine_arts/art19.jpg" alt="art19">
+                                <img class="image-thumb" src="images/fine_arts/art20.jpg" alt="art20">
+                                <img class="image-thumb" src="images/fine_arts/art21.jpg" alt="art21">
+                                <img class="image-thumb" src="images/fine_arts/art22.jpg" alt="art22">
+                                <img class="image-thumb" src="images/fine_arts/art23.jpg" alt="art23">
+                                <img class="image-thumb" src="images/fine_arts/art24.jpg" alt="art24">
+                                <img class="image-thumb" src="images/fine_arts/art25.jpg" alt="art25">
+                                <img class="image-thumb" src="images/fine_arts/art26.jpg" alt="art26">
+                                <img class="image-thumb" src="images/fine_arts/art27.jpg" alt="art27" data-description="The Collage of My Works: A summary of my artwork that incorporates my color palette, areas of work, preferences, and personal opinions. 《我的作品拼贴》：我的艺术作品摘要，其中包含我的调色板、工作领域、喜好和个人观点。">                                
+                            </div>
+                            
+                        </div>
+                
+                        <button class="accordion">Commission & Practice｜稿件展示 & 个人练习</button>
+                        <div class="panel">
+                            <div class="image-grid">
+                                <img class="image-thumb" src="images/commissions/comi1.jpg" alt="comi1">
+                                <img class="image-thumb" src="images/commissions/comi2.jpg" alt="comi2">
+                                <img class="image-thumb" src="images/commissions/comi3.jpg" alt="comi3">
+                                <img class="image-thumb" src="images/commissions/comi4.jpg" alt="comi4">
+                                <img class="image-thumb" src="images/commissions/comi5.jpg" alt="comi5">
+                                <img class="image-thumb" src="images/commissions/comi6.jpg" alt="comi6">
+                                <img class="image-thumb" src="images/commissions/comi7.jpg" alt="comi7">
+                                <img class="image-thumb" src="images/commissions/comi8.jpg" alt="comi8">
+                                <img class="image-thumb" src="images/commissions/comi9.jpg" alt="comi9">
+                                <img class="image-thumb" src="images/commissions/comi10.jpg" alt="comi10">
+                                <img class="image-thumb" src="images/commissions/comi11.jpg" alt="comi11">
+                                <img class="image-thumb" src="images/commissions/comi12.jpg" alt="comi12">
+                                <img class="image-thumb" src="images/commissions/comi13.jpg" alt="comi13">
+                                <img class="image-thumb" src="images/commissions/comi14.jpg" alt="comi14">
+                                <img class="image-thumb" src="images/commissions/comi15.jpg" alt="comi15">
+                                <img class="image-thumb" src="images/commissions/comi16.jpg" alt="comi16">
+                                <img class="image-thumb" src="images/commissions/comi17.jpg" alt="comi17">
+                                <img class="image-thumb" src="images/commissions/comi18.jpg" alt="comi18">
+                                <img class="image-thumb" src="images/commissions/comi19.jpg" alt="comi19">
+                                <img class="image-thumb" src="images/commissions/comi20.jpg" alt="comi20">
+                                <img class="image-thumb" src="images/commissions/comi21.jpg" alt="comi21">
+                                <img class="image-thumb" src="images/commissions/comi22.jpg" alt="comi22">
+                                <img class="image-thumb" src="images/commissions/comi23.jpg" alt="comi23">
+                                <img class="image-thumb" src="images/commissions/comi24.jpg" alt="comi24">
+                                <img class="image-thumb" src="images/commissions/comi25.jpg" alt="comi25">
+                                <img class="image-thumb" src="images/commissions/comi26.jpg" alt="comi26">
+                                <img class="image-thumb" src="images/commissions/comi27.jpg" alt="comi27">
+                                <img class="image-thumb" src="images/commissions/comi28.jpg" alt="comi28">
+                                <img class="image-thumb" src="images/commissions/comi29.jpg" alt="comi29" data-description="Flandolu Drinking Tea: This is fan art for the Touhou Project series of games, and I drew the vampire Flandreau enjoying afternoon tea in the sunshine of her dreams. 《芙兰朵露在喝茶》：这是东方Project的同人图，我画的是吸血鬼弗兰德鲁在她梦中的阳光下享受下午茶的样子。">
+                                <img class="image-thumb" src="images/commissions/comi30.jpg" alt="comi30">
+                                <img class="image-thumb" src="images/commissions/comi31.jpg" alt="comi31">
+                                <img class="image-thumb" src="images/commissions/comi32.jpg" alt="comi32">
+                                <img class="image-thumb" src="images/commissions/comi33.jpg" alt="comi33">
+                                <img class="image-thumb" src="images/commissions/comi34.jpg" alt="comi34">
+                                <img class="image-thumb" src="images/commissions/comi35.jpg" alt="comi35">
+                                <img class="image-thumb" src="images/commissions/comi36.jpg" alt="comi36">
+                                <img class="image-thumb" src="images/commissions/comi37.jpg" alt="comi37">
+                                <img class="image-thumb" src="images/commissions/comi38.jpg" alt="comi38">
+                                <img class="image-thumb" src="images/commissions/comi39.jpg" alt="comi39">
+                                <img class="image-thumb" src="images/commissions/comi40.jpg" alt="comi40">
+                                <img class="image-thumb" src="images/commissions/comi41.jpg" alt="comi41">
+                                <img class="image-thumb" src="images/commissions/comi42.jpg" alt="comi42">
+                                <img class="image-thumb" src="images/commissions/comi43.jpg" alt="comi43">
+                                <img class="image-thumb" src="images/commissions/comi44.jpg" alt="comi44">
+                                <img class="image-thumb" src="images/commissions/comi45.jpg" alt="comi45">
+                                <img class="image-thumb" src="images/commissions/comi46.jpg" alt="comi46">
+                                <img class="image-thumb" src="images/commissions/comi47.jpg" alt="comi47">
+                                <img class="image-thumb" src="images/commissions/comi48.jpg" alt="comi48">
+                                <img class="image-thumb" src="images/commissions/comi49.jpg" alt="comi49">
+                                <img class="image-thumb" src="images/commissions/comi50.jpg" alt="comi50">
+                                <img class="image-thumb" src="images/commissions/comi51.jpg" alt="comi51">
+                                <img class="image-thumb" src="images/commissions/comi52.jpg" alt="comi52">
+                                <img class="image-thumb" src="images/commissions/comi53.jpg" alt="comi53">
+                                <img class="image-thumb" src="images/commissions/comi54.jpg" alt="comi54">
+                                <img class="image-thumb" src="images/commissions/comi55.jpg" alt="comi55">
+                                <img class="image-thumb" src="images/commissions/comi56.jpg" alt="comi56">
+                                <img class="image-thumb" src="images/commissions/comi57.jpg" alt="comi57">
+                                <img class="image-thumb" src="images/commissions/comi58.jpg" alt="comi58" data-description="Snow Sugar No Longer Lonely: This is a fan art for the game Cookie Run, where I drew Snow Sugar Cookie under the Aurora Borealis with her pet crystal ball, ready to summon other snow sprites and not be alone anymore.《粉雪不再寂寞》：这是游戏跑跑姜饼人的同人图，我画了北极光下的粉雪饼干，她带着宠物水晶球，准备召唤其他雪精灵，不再孤单。">
+                                <img class="image-thumb" src="images/commissions/comi59.jpg" alt="comi59">
+                                <img class="image-thumb" src="images/commissions/comi60.jpg" alt="comi60">
+                                <img class="image-thumb" src="images/commissions/comi61.jpg" alt="comi61">
+                                <img class="image-thumb" src="images/commissions/comi62.jpg" alt="comi62">
+                                <img class="image-thumb" src="images/commissions/comi63.jpg" alt="comi63">
+                                <img class="image-thumb" src="images/commissions/comi64.jpg" alt="comi64">
+                                <img class="image-thumb" src="images/commissions/comi65.jpg" alt="comi65">
+                                <img class="image-thumb" src="images/commissions/comi66.jpg" alt="comi66">
+                                <img class="image-thumb" src="images/commissions/comi67.jpg" alt="comi67">
+                                <img class="image-thumb" src="images/commissions/comi68.jpg" alt="comi68">
+                                <img class="image-thumb" src="images/commissions/comi69.jpg" alt="comi69">
+                                <img class="image-thumb" src="images/commissions/comi70.jpg" alt="comi70">
+                                <img class="image-thumb" src="images/commissions/comi71.jpg" alt="comi71">
+                                <img class="image-thumb" src="images/commissions/comi72.jpg" alt="comi72">
+                                <img class="image-thumb" src="images/commissions/comi73.jpg" alt="comi73">
+                                <img class="image-thumb" src="images/commissions/comi74.jpg" alt="comi74">
+                                <img class="image-thumb" src="images/commissions/comi75.jpg" alt="comi75">
+                                <img class="image-thumb" src="images/commissions/comi76.jpg" alt="comi76">
+                                <img class="image-thumb" src="images/commissions/comi77.jpg" alt="comi77">
+                                <img class="image-thumb" src="images/commissions/comi78.jpg" alt="comi78">
+                                <img class="image-thumb" src="images/commissions/comi79.jpg" alt="comi79">
+                                <img class="image-thumb" src="images/commissions/comi80.jpg" alt="comi80">
+                                <img class="image-thumb" src="images/commissions/comi81.jpg" alt="comi81">
+                                <img class="image-thumb" src="images/commissions/comi82.jpg" alt="comi82">
+                                <img class="image-thumb" src="images/commissions/comi83.jpg" alt="comi83">
+                                <img class="image-thumb" src="images/commissions/comi84.jpg" alt="comi84">
+                                <img class="image-thumb" src="images/commissions/comi85.jpg" alt="comi85">
+                                <img class="image-thumb" src="images/commissions/comi86.jpg" alt="comi86">
+                                <img class="image-thumb" src="images/commissions/comi87.jpg" alt="comi87">
+                                <img class="image-thumb" src="images/commissions/comi88.jpg" alt="comi88">
+                                <img class="image-thumb" src="images/commissions/comi89.jpg" alt="comi89">
+                                <img class="image-thumb" src="images/commissions/comi90.jpg" alt="comi90">
+                                <img class="image-thumb" src="images/commissions/comi91.jpg" alt="comi91">
+                                <img class="image-thumb" src="images/commissions/comi92.jpg" alt="comi92">
+                                <img class="image-thumb" src="images/commissions/comi93.jpg" alt="comi93">
+                                <img class="image-thumb" src="images/commissions/comi94.jpg" alt="comi94">
+                                <img class="image-thumb" src="images/commissions/comi95.jpg" alt="comi95">
+                                <img class="image-thumb" src="images/commissions/comi96.jpg" alt="comi96">
+                                <img class="image-thumb" src="images/commissions/comi97.jpg" alt="comi97">
+                                <img class="image-thumb" src="images/commissions/comi98.jpg" alt="comi98">
+                                <img class="image-thumb" src="images/commissions/comi99.jpg" alt="comi99">
+                                <img class="image-thumb" src="images/commissions/comi100.jpg" alt="comi100">
+                                <img class="image-thumb" src="images/commissions/comi101.jpg" alt="comi101">
+                                <img class="image-thumb" src="images/commissions/comi102.jpg" alt="comi102">
+                                <img class="image-thumb" src="images/commissions/comi103.jpg" alt="comi103">
+                                <img class="image-thumb" src="images/commissions/comi104.jpg" alt="comi104">
+                                <img class="image-thumb" src="images/commissions/comi105.jpg" alt="comi105">
+                                <img class="image-thumb" src="images/commissions/comi106.jpg" alt="comi106">
+                                <img class="image-thumb" src="images/commissions/comi107.jpg" alt="comi107">
+                                <img class="image-thumb" src="images/commissions/comi108.jpg" alt="comi108">
+                                <img class="image-thumb" src="images/commissions/comi109.jpg" alt="comi109">
+                                <img class="image-thumb" src="images/commissions/comi110.jpg" alt="comi110">
+                                <img class="image-thumb" src="images/commissions/comi111.jpg" alt="comi111">
+                                <img class="image-thumb" src="images/commissions/comi112.jpg" alt="comi112">                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+<br><div class="divider"></div><br>          
+            <section id="online_interactive">
+                <div class="category">
+                    <h2>Online Interactive｜线上互动</h2>
+                    <!-- <p>我的线上互动介绍</p> -->            
+                    <!-- 创意编程 -->
+                    <div class="subcategory">
+                        <div class="accordion-container">
+                            <button class="accordion">Creative Coding｜创意编程</button>
+                            <div class="panel">
+                                <div class="series">
+                                    <h3>Creative Coding Works｜创意编程作品</h3>
+                                    <p>This is my online coding portfolio, showcasing a collection of works primarily created through programming. Most of the projects are websites, web-based applications, or generative art pieces.
+                                        <br>这是我的线上编程作品集，展示了主要通过编程实现的作品，包括网站、网页应用以及生成艺术。
+                                    </p>
+                                    <ul class="subsections">
+                                        <!-- 部分1 -->
+                                        <br><div class="subdivider_in_online"></div><br>
+                                        
+                                            <h4>Project 1: The collection of works|作品合集</h4>
+                                            <h5><a href="https://julyanira.github.io/creative_code_Yishan/" target="_blank">🌟❤️Click to open this work 点击打开作品网站🌟❤️</a></h5>
+                                            <h5><a href="https://github.com/JulyAnira/creative_code_Yishan" target="_blank">Project Github Page</a></h5>
+                                            <p>This is a website featuring multiple small projects, divided into five sections. 
+                                                <br>这是一个包含多个小项目的网站，分为五个部分。
+                                            </p>
+                                            <ul class="sub-parts">
+                                                <!-- 1主页 -->
+                                                 
+                                        <h6><a href="https://julyanira.github.io/creative_code_Yishan/" target="_blank">Home Page|主页</a></h6>
+                                        <br>
+                                                <video width="640" height="360" controls>
+                                                    <source src="onlinevideo/myprojectweb/homepage.mov" type="video/mp4">
+                                                    Your browser does not support the video tab. 您的浏览器不支持视频标签。
+                                                </video>
+                                                <p>The homepage features a random walk design where a pixel character interacts with the mouse position. The character will chase the cursor, and holding down the mouse button slows its movements. Strawberry particles in the background produce collision sounds and gradually disappear over time.
+                                                <br>
+                                                主页采用随机游走设计，像素小人会与鼠标位置进行互动。小人会追逐鼠标光标，按住鼠标时小人的行动将减缓。背景中的草莓粒子会发出碰撞声响，并随时间逐渐消失。
+                                                </p>
+                                                <!-- 2脸 -->
+                                                 <br>
+                                        <h6><a href="https://julyanira.github.io/creative_code_Yishan/faces/" target="_blank">Faces｜“脸”</a></h6>
+                                        <br>
+                                                <video width="640" height="360" controls>
+                                                    <source src="onlinevideo/myprojectweb/faces.mov" type="video/mp4">
+                                                    Your browser does not support the video tab. 您的浏览器不支持视频标签。
+                                                </video>
+                                                <p>This is a generative art project created with p5.js. It randomly matches facial features' sizes and colors with face sizes, generating an increasing number of faces on the screen. Refreshing the page resets the artwork.
+                                                    <br>这是一个用 p5.js 制作的生成艺术项目，随机匹配五官大小、颜色与脸部大小，屏幕上会出现越来越多的脸。刷新网页即可重置作品。
+                                                </p>
+                                                <!-- 3随机圆形 -->
+                                                 <br>
+                                         <h6><a href="https://julyanira.github.io/creative_code_Yishan/randomcircle/" target="_blank">Random Circles｜随机圆形</a></h6>
+                                         <br>
+                                                <video width="640" height="360" controls>
+                                                    <source src="onlinevideo/myprojectweb/randomcircle.mov" type="video/mp4">
+                                                    Your browser does not support the video tab. 您的浏览器不支持视频标签。
+                                                </video>
+                                                <p>This is a small interactive project where you can randomly spray paint with the mouse. Colors are random but vary within a range based on the mouse's position. After clicking the pixel image in the center, you can paint vibrant patterns effortlessly by moving the mouse without holding the button.
+                                                    <br>
+                                                    The text "Mansikka" is the name of the little girl featured in the avatar. I wanted to use this project to showcase the character's charm in diverse ways.
+                                                    <br><br>这是一个用鼠标随机喷洒颜料的小互动项目，颜色随机但在鼠标位置的范围内变化。点击中间的像素图后，无需一直按住鼠标，轻轻摆动就能画出绚丽多彩的图案。
+                                                    <br>文字“Mansikka”是这个头像中小女孩的名字。我希望用这种方式多样化展示角色的魅力。
+                                                </p>
+                                                <br>
+                                                <!-- 4雪花 -->
+                                        <h6><a href="https://julyanira.github.io/creative_code_Yishan/particle_system/" target="_blank">Snow Particles｜雪花粒子特效</a></h6>
+                                        <br>
+                                                <video width="640" height="360" controls>
+                                                    <source src="onlinevideo/myprojectweb/snow.mov" type="video/mp4">
+                                                    Your browser does not support the video tab. 您的浏览器不支持视频标签。
+                                                </video>
+                                                <p>This is a practice project that simulates 3D snowflake effects using 2D particle effects. It does not include interactive elements.
+                                                    <br>
+                                                    这是一个用 2D 粒子效果模拟 3D 雪花效果的练习项目，无互动要素。
+                                                </p>
+                                                <br>
+                                                <!-- 5水果画笔 -->
+                                        <h6><a href="https://julyanira.github.io/creative_code_Yishan/fruit_brush/" target="_blank">Fruit Brush｜水果画笔工具</a></h6>
+                                        <br>
+                                                <video width="640" height="360" controls>
+                                                    <source src="onlinevideo/myprojectweb/fruitbrush.mov" type="video/mp4">
+                                                    Your browser does not support the video tab. 您的浏览器不支持视频标签。
+                                                </video>
+                                                <p>This is a drawing project featuring fruit brushes. You can paint with two types of brushes: apple and banana. After clicking the button, hold and drag the mouse to draw. The project includes an eraser function, the ability to clear the screen by pressing "C," and options to change the screen color.
+                                                    <br>这是一个水果画笔作品，可以用两种画笔（苹果和香蕉）进行绘画。点击按钮后，按住鼠标拖动即可画画。项目还提供橡皮擦功能，按下“C”可以清空屏幕，并支持更换屏幕颜色。
+                                                </p>
+                                                <br>
+                                                <!-- 6塔罗 -->
+                                        <h6><a href="https://julyanira.github.io/creative_code_Yishan/tarot_reading/" target="_blank">Tarot Reading｜塔罗牌占卜</a></h6>
+                                        <br>
+                                        <video width="640" height="360" controls>
+                                            <source src="onlinevideo/myprojectweb/tarot.mov" type="video/mp4">
+                                            Your browser does not support the video tab. 您的浏览器不支持视频标签。
+                                        </video>
+                                                <p>Displaying a specific tarot card in front of the camera will randomly show an appropriate reading in a manner similar to a game dialog box. I see it as a chance to create a way to play around with my world setting & kind of IP interactive web design.
+                                                    Check 22 Major Arcana cards, each with random 1-6 options.Four of the cards (The Fool, The World, The Lovers, Death) have hidden options (Branch). Please note that some browsers do not support this program to run.
+                                                <br>NOTE: This program only supports specific decks of  Rider-Waite, tap into the program for more information.
+                                                <br><br>当将特定的塔罗牌展示在摄像头前时，网页会随机显示与之对应的解读，类似于游戏中的对话框。我将其视为一个尝试将我的世界观和IP与互动网页设计结合起来的机会。 该网页包含22张大阿尔卡纳牌，每张牌都有1到6个随机选项。其中四张牌（愚者、世界、恋人、死亡）具有隐藏选项（分支）。请注意，有些浏览器不支持该项目运行。
+                                                <br>注意：该项目仅支持特定牌面的伟特塔罗牌，点进项目查看更多信息。
+                                                </p>
+                                            </ul>
+                                        
+                                        <br><div class="subdivider"></div><br>
+                                        <!-- 部分2 -->
+                                            <h4>Project 2: <i>Internet Letter｜互联网信件</i></h4>
+                                            <h5><a href=" https://julyanira.github.io/creative_code_final/" target="_blank">Click to open this work 点击打开作品网站</a></h5>
+                                            <h5><a href="https://github.com/JulyAnira/creative_code_final" target="_blank">Project Github Page</a></h5>
+                                            <br>
+                                            <video width="640" height="360" controls>
+                                                <source src="onlinevideo/letter.mov" type="video/mp4">
+                                                Your browser does not support the video tab. 您的浏览器不支持视频标签。
+                                            </video>
+                                            <p>This project is a sound and visual interactive experience. The audio is original and the sound texture is derived from simulating the sound of a public piano (located in Hong Kong) played by a friend's recording, aiming to convey a sense of emotional connection. The actual sound in the project is the quality of the sound of that piano imitated by my MIDI playing. 
+                                                <br><br>The animations in the project are black, white and gray by default, reflecting the visual style of simplicity and abstraction. The main interface contains a horizontal line on which the animation will be displayed. There is a triangle graphic at the bottom of the interface. When the mouse hovers over the triangle, an input box will be displayed. The user can type in any character and press Enter. The character will be transformed into an animation and a small piece of music will be played, which lasts about 3 to 6 seconds and then disappears. Some of the different punctuation marks correspond to different melodies. After input a number from 0 to 13 and press Enter will play the music of that number.
+                                                <br><br>Hidden Feature: When certain characters such as ?!……/ are input, a limited randomness is triggered, selecting from specific music clips.
+                                                (only English or Chinese)
+                                                <br>One reason I chose punctuation marks is that I noticed I rarely use complete punctuation when messaging online. Through this, I aim to amplify their symbolic meaning and emotional value. Unlike words, punctuation represents a universally abstract language that can be directly felt.
+                                                <br><br><br>这个项目是一个声音与视觉互动体验。音频为原创，声音质感来源于模拟由朋友录制的公共钢琴（位于香港）演奏的声音，旨在传达一种情感上的联系感。项目中实际的声音为我用MIDI演奏模仿该钢琴的声音质量。 
+                                                <br><br>项目中的动画默认为黑、白、灰三色，体现简洁与抽象的视觉风格。主界面包含一条横向的线条，动画将在这条线上展示。界面下方有一个三角形图形，当鼠标悬停在三角形上方时，将会显示一个输入框。用户可以输入任何字符并按下 Enter 键，字符将会转化为动画，同时会播放一小段音乐，持续大约 3 到 6 秒后消失。其中有些不同的标点符号对应着不同的旋律。 输入 0 至 13 之间的数字并按 Enter 键后，将播放该数字的音乐。
+                                                <br><br>隐藏功能：输入 ?!……/ 等字符时，会触发有限的随机性，从特定的音乐片段中选取播放(仅限中英文)。
+                                                <br>我选择标点符号的原因之一是，我发现自己在网上发消息时很少使用完整的标点。我想借此放大标点符号的象征意义和情感价值。与文字不同，标点是一种不同语言通用的、可直接感知的抽象表达。
+                                            </p>
+                                        <br><div class="subdivider"></div><br>
+                                        <!-- 部分3 -->
+                                            <h4>Project 3: <i>I Found You｜我找到你了</i></h4>
+                                            <h5><a href="https://yhou57.wixsite.com/final" target="_blank">Click to open this work 点击打开作品网站</a></h5>
+                                            <video width="640" height="360" controls>
+                                                <source src="onlinevideo/youclip.mov" type="video/mp4">
+                                                Your browser does not support the video tab. 您的浏览器不支持视频标签。
+                                            </video>
+                                            <p>This is an interactive black-and-white website designed to evoke a labyrinthine experience. It has no sound, drawing inspiration from Kenji Mizoguchi's black-and-white films and the concept of a massive, hidden terror akin to <i>Godzilla</i>. The branches are not fixed paths and may lead users to different locations, making it easy to get lost within the site. 
+                                                <br>The materials include processed photos I took, along with my own illustrations. The overall aesthetic is a misty, grayish-dark morning, resembling a black bramble forest with a hint of Lovecraftian literary dread. It feels like a gothic garden in shadow, inspired partly by <i>絶望plantation</i>, a song by the band Yousei Teikoku.
+                                                <br>This piece conveys a chilling sense of emotion, evoking an eerie unease. It seeks to depict a state where humanity has shed its inner fear, walking like soulless husks.
+                                                <br>This work uses the Wix.com website builder, no programming
+                                            </p>
+                                            <p>这是一个黑白色的交互网站，旨在营造迷宫般的体验。网站无声，灵感来源于沟口健二的黑白电影，以及类似<i>特斯拉</i>这样藏于深处的巨大恐惧概念。分支路径并非固定，可能会引导用户进入不同的地方，很容易在网页中迷失。
+                                                <br>素材包括我拍摄并处理的照片，以及我的手绘作品。整体氛围像是雾蒙蒙的灰暗清晨，仿佛黑色的荆棘丛，带有洛夫克拉夫特式的文学恐惧感，犹如笼罩在阴影中的哥特花园。这一项目的灵感部分来源于乐队妖精帝国的歌曲《絶望plantation》。
+                                                <br>这个作品传递了一种冰冷的情绪，令人不寒而栗。它试图展现一种情境，就像人类摆脱了灵魂中的恐惧，行尸走肉般地行走着。
+                                                <br>本作品使用 Wix.com 网站生成器，无需编程。
+                                            </p>
+                                        <br><div class="subdivider"></div><br>
+                                        <!-- 部分4 -->
+                                            <h4>Project 4: <i>Hey^ ^</i></h4>
+                                            <h5><a href="https://yhou57.wixsite.com/my-site" target="_blank">Click to open this work 点击打开作品网站</a></h5>
+                                            <img src="onlinevideo/hey1.png" alt="Description" style="width: 670px; height: 331px;" /><br>
+                                            <img src="onlinevideo/hey2.png" alt="Description" style="width: 670px; height: 331px;" /><br>
+                                            <img src="onlinevideo/hey3.png" alt="Description" style="width: 670px; height: 331px;" />
+                                            <p>This is a small collection of works, including some of my GIF collages, original sounds, and fan websites of other artists I admire. There are five clickable branches. Hope you enjoy exploring!
+                                                <br>I used Maya 3D for modeling and Photoshop for creating animation effects.
+                                                <br>This work uses the Wix.com website builder, no programming.
+                                            </p>
+                                            <p>这是一个小型作品合集，包含我的一些GIF拼贴图片、原创声音，以及我喜欢的其他艺术家的同人网站。共有五个可点击的分支。希望你能玩得开心！
+                                                <br>我使用了Maya 3D建模工具，并通过Photoshop制作了动画效果。
+                                                <br>本作品使用 Wix.com 网站生成器，无需编程。
+                                            </p>
+                                        <br><div class="subdivider"></div><br>
+                                        <!-- 部分5 -->
+                                            <h4>Project 5: <i>❤️Animals❤️｜❤️动物们❤️</i></h4>
+                                            <p>The webpage has not been released on public platforms yet. This page jump only.<br>该网页暂未发布到公共平台，仅限此页面跳转。</p>
+                                            <h5><a href="web_animals3/index.html"target="_blank">Click to open this work 点击打开作品网站</a></h5>
+                                            <p>As I enjoy watching animals and their behaviors, and often watch animal videos, I created this easygoing and fun website to bring some joy and relaxation to you.</p>                                         
+                                            <p>由于我平时喜欢小动物，时常关注它们的举止，并且经常看动物视频，所以我制作了这个轻松愉快的网站，希望能带给你一些欢乐和放松。</p>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- 区块链艺术 -->
+                    <div class="subcategory">
+                        <div class="accordion-container">
+                            <button class="accordion">Blockchain Art｜区块链艺术</button>
+                            <div class="panel">
+                                <div class="series">
+                                    <h3>Blockchain Art Works｜区块链艺术作品</h3>
+                                    <ul>
+                                        <li>
+                                            <h4>Project 1: <i>Cyber Boba Tea｜赛博奶茶</i></h4>
+                                            <h5><a href="https://julyanira.github.io/CyberBobaTea/"  target="_blank">Click to open this work 点击打开作品网站</a></h5>
+                                            <h5><a href="https://github.com/JulyAnira/CyberBobaTea" target="_blank">Project Github Page</a></h5>
+                                            <video width="640" height="360" controls>
+                                                <source src="onlinevideo/bobav.mp4" type="video/mp4">
+                                                Your browser does not support the video tab. 您的浏览器不支持视频标签。
+                                            </video>
+                                            <p>Cyber Boba Tea is a decentralized application built on smart contracts and presented as a web page, which randomly selects a boba tea flavor for the user. A MetaMask account is required. To use it, simply input any custom text (even your friend's name), click the button, and once the MetaMask confirmation popup appears, confirming the estimated fee, the website will randomly generate options for "flavor, toppings, and temperature," creating a unique Cyber Boba Tea just for you.
+                                                <br>The design is simple, focusing on functionality and ease of use. The inspiration comes from how the younger generation often "cyberizes" everyday things and explores virtual reality in the online world. With boba tea being a popular beverage in China, it became the central idea for this project.
+                                            </p>
+                                            <p>赛博奶茶是一个基于智能合约的去中心化应用程序，以网页形式呈现，能够随机为用户选择奶茶口味。用户需要拥有MetaMask账户。操作方法是，输入任何自定义文字（甚至是朋友的名字），点击按钮后，MetaMask会弹出确认按钮，消耗一定的手续费后，网站会随机生成奶茶的“口味、调料、温度”三个选项，帮你打造一杯独一无二的赛博奶茶。
+                                                <br>此作品界面简洁，注重功能性和易用性。灵感来源于年轻一代将身边事物“赛博化”，以及在网络世界寻求虚拟现实的趋势。奶茶作为中国流行的饮品，成为这个项目的核心构思。
+                                            </p>
+                                        </li>
+                                        <br><div class="subdivider"></div><br>
+                                        <li>
+                                            <h4>Project 2: FxHash NFTs</h4>
+                                            <p></p>
+                                            <br>
+                                            <video width="640"height="360" controls>
+                                                <source src="onlinevideo/cateyes.mov"  type="video/mp4"> 
+                                                Your browser does not support the video tab. 您的浏览器不支持视频标签。
+                                            </video>
+                                            <br>
+                                            <h6><i>Cat Eyes｜猫眼</i></h6> <h5><a href="https://www.fxhash.xyz/generative/29700" target="_blank">Click here to open the artwork page 点击这里打开作品页面</a></h5>
+                                            <p>This piece expresses the feeling of "seeing the world in the dark," with eyes serving as bridges of communication. Various cat eyes emerge from the darkness, representing the diverse aspects of society and observation. It reflects how humans search for and observe the world in the dark.</p>
+                                            <p>这个作品试图表达“在黑暗中看世界”的感觉，眼睛作为沟通的桥梁。在黑暗中，形形色色的猫眼不断出现，象征着社会的各种面貌和观察。这是一个关于人类如何在黑暗中寻找和观察世界的表达。</p>
+                    <br><div class="subdivider"></div><br>
+                                            <video width="640"height="360" controls>
+                                                <source src="onlinevideo/heartwave.mov"  type="video/mp4"> 
+                                                Your browser does not support the video tab. 您的浏览器不支持视频标签。
+                                            </video>
+                                            <br>
+                                            <h6><i>Heart Wave｜心脏波</i></h6> <h5><a href="https://www.fxhash.xyz/generative/29707" target="_blank">Click here to open the artwork page 点击这里打开作品页面</a></h5>
+                                            <h5>Photosensitive Epilepsy Warning <br> 光敏性癫痫预警</h5>
+                                            <p>This work captures the sensation of a heart passionately beating to the rhythm of music and movement. Using bold colors and ever-changing shapes, I aim to simulate the pulsating rhythm of the heart, mirroring the way it beats with energy in sync with music.</p>
+                                            <p>这件作品表达了心脏随着音乐和律动激情跳动的感觉。通过大胆的色彩和不断变化的图形，我想模拟心脏的节奏与激情，展示心脏在音乐的波动中跳动的感觉。</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+<br><div class="divider"></div><br>
+            <section id="sound">
+                <div class="category">
+                    <h2>Sound｜声音</h2>
+    <div class="subcategory">
+        <div class="accordion-container">
+            <button class="accordion">My Music|原创音乐</button>
+                <div class="panel">
+                    <div class="series">     
+                            <h3>Music|音乐</h3>               
+                    <div class="music-list">
+                        <div class="music-item">
+                            <h5>Borderland Forest Waltz</h5>
+                            <p>Music of my character Elena<br>我的角色伊琳娜的主题曲</p>
+                            <div class="controls">
+                                <button class="play-btn" data-audio="sound/Borderland Forest Waltz - Allegro.mp3">
+                                    <i class="fas fa-play"></i>
+                                </button>
+                                <input type="range" class="progress-bar" min="0" max="100" value="0">
+                                <span class="time-display">00:00 / 00:00</span> 
+                            </div>
+                        </div>
+                        <div class="music-item">
+                            <h5>The saga, war</h5>
+                            <p>Fan music of <i>Saga of Tanya the Evil</i><br>动画《幼女战记》同人曲</p>
+                            <div class="controls">
+                                <button class="play-btn" data-audio="sound/The saga, war.mp3">                                    <i class="fas fa-play"></i>
+                                </button>
+                                <input type="range" class="progress-bar" min="0" max="100" value="0">
+                                <span class="time-display">00:00 / 00:00</span>
+                            </div>
+                        </div>
+                        <div class="music-item">
+                            <h5>My visual novel OST.1</h5>
+                            <p>我的视觉小说OST.1</p>
+                            <div class="controls">
+                                <button class="play-btn" data-audio="sound/minor_key1.mp3">                                    <i class="fas fa-play"></i>
+                                </button>
+                                <input type="range" class="progress-bar" min="0" max="100" value="0">
+                                <span class="time-display">00:00 / 00:00</span>
+                            </div>
+                        </div>
+                        <div class="music-item">
+                            <h5>My visual novel OST.2</h5>
+                            <p>我的视觉小说OST.2</p>
+                            <div class="controls">
+                                <button class="play-btn" data-audio="sound/major_key1.mp3">                                    <i class="fas fa-play"></i>
+                                </button>
+                                <input type="range" class="progress-bar" min="0" max="100" value="0">
+                                <span class="time-display">00:00 / 00:00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="subcategory">
+        <div class="accordion-container">
+            <button class="accordion">Experimental music|实验性音乐</button>
+                <div class="panel">
+                    <div class="series">
+                            <h3>Experimental music|实验性音乐</h3>
+                        <div class="music-item">
+                            <h5>Standby Mode</h5>
+                            <div class="controls">
+                                <button class="play-btn" data-audio="sound/Standby Mode.mp3">                                    <i class="fas fa-play"></i>
+                                </button>
+                                <input type="range" class="progress-bar" min="0" max="100" value="0">
+                                <span class="time-display">00:00 / 00:00</span>
+                            </div>
+                        </div>
+                        <div class="music-item">
+                            <h5>Name Brand</h5>
+                            <div class="controls">
+                                <button class="play-btn" data-audio="sound/01_13 name brand.mp3">                                    <i class="fas fa-play"></i>
+                                </button>
+                                <input type="range" class="progress-bar" min="0" max="100" value="0">
+                                <span class="time-display">00:00 / 00:00</span>
+                            </div>
+                        </div>
+                        <div class="music-item">
+                            <h5>Thinking Rule</h5>
+                            <div class="controls">
+                                <button class="play-btn" data-audio="sound/Thinking Rule.mp3">                                    <i class="fas fa-play"></i>
+                                </button>
+                                <input type="range" class="progress-bar" min="0" max="100" value="0">
+                                <span class="time-display">00:00 / 00:00</span>
+                            </div>
+                        </div>
+                        <div class="music-item">
+                            <h5>Hurt</h5>
+                            <div class="controls">
+                                <button class="play-btn" data-audio="sound/hurt.mp3">                                    <i class="fas fa-play"></i>
+                                </button>
+                                <input type="range" class="progress-bar" min="0" max="100" value="0">
+                                <span class="time-display">00:00 / 00:00</span>
+                            </div>
+                        </div>
+                        <div class="music-item">
+                            <h5>Ready</h5>
+                            <div class="controls">
+                                <button class="play-btn" data-audio="sound/1.4(2)Ready.mp3">                                    <i class="fas fa-play"></i>
+                                </button>
+                                <input type="range" class="progress-bar" min="0" max="100" value="0">
+                                <span class="time-display">00:00 / 00:00</span>
+                            </div>
+                        </div>
+                        <div class="music-item">
+                            <h5>Afternoon</h5>
+                            <div class="controls">
+                                <button class="play-btn" data-audio="sound/2023.1.4Afternoon2.mp3">                                    <i class="fas fa-play"></i>
+                                </button>
+                                <input type="range" class="progress-bar" min="0" max="100" value="0">
+                                <span class="time-display">00:00 / 00:00</span>
+                            </div>
+                        </div>
+                        <div class="music-item">
+                            <h5>I Feel Peaceful</h5>
+                            <div class="controls">
+                                <button class="play-btn" data-audio="sound/1.8:2 I feel peaceful.mp3">                                    <i class="fas fa-play"></i>
+                                </button>
+                                <input type="range" class="progress-bar" min="0" max="100" value="0">
+                                <span class="time-display">00:00 / 00:00</span>
+                            </div>
+                        </div>
+                        <div class="music-item">
+                            <h5>Dots</h5>
+                            <div class="controls">
+                                <button class="play-btn" data-audio="sound/minute dot.mp3">                                    <i class="fas fa-play"></i>
+                                </button>
+                                <input type="range" class="progress-bar" min="0" max="100" value="0">
+                                <span class="time-display">00:00 / 00:00</span>
+                            </div>
+                        </div>
+                        <div class="music-item">
+                            <h5>Mixed Celtic</h5>
+                            <p>Music for my video piece<br>为我的视频配乐</p>
+                            <div class="controls">
+                                <button class="play-btn" data-audio="sound/20230214_1-1-1-1-129-1-1-1_.mp3">                                    <i class="fas fa-play"></i>
+                                </button>
+                                <input type="range" class="progress-bar" min="0" max="100" value="0">
+                                <span class="time-display">00:00 / 00:00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            </section>
+<br><div class="divider"></div><br>
+            <section id="game">
+                <h2>Game 游戏</h2>
+                <div class="series">
+                    <h3>2D Game|二维游戏</h3>
+                                    <ul>
+                                        <li>
+                                            <h4>Game 1: <i>AppleCat｜苹果猫</i></h4>
+                                            <h5>2D collecting action game, 2023-2024, Unity.<br>收集动作游戏</h5>
+                                            <h5><a href="https://julyanira.itch.io/applecat" target="_blank">Click to play it on itch.io 点击在itch.io玩</a></h5>
+                                            <video width="640" height="360" controls>
+                                                <source src="gamevideo/apple2clip.mp4" type="video/mp4">
+                                                Your browser does not support the video tab. 您的浏览器不支持视频标签。
+                                            </video>   
+                                            <p>In this little cute game, your goal is to eat all the apples within 42 seconds! Avoid collisions and beware of the Green Grass, which will make your apple cat disappear if touched. Use the left mouse click to destroy the grass. The game will automatically restart when time is up!</p>
+                                            <p>在这个可爱的小游戏中，你的目标是在42秒内吃掉所有的苹果！不过要小心绿色草地，触碰到它会让苹果猫消失。使用左键点击摧毁草地。时间结束后，游戏会自动重启！</p>
+                                        </li>
+                                        <br><div class="subdivider"></div><br>
+                                        <li>
+                                            <h4>Game 2: <i>A Long Story (demo)｜长长的故事（试运行）</i></h4>
+                                            <h5>2D adventure collecting game, 2023-2024, Unity.<br>收集冒险游戏</h5>
+                                            <h5><a href="https://julyanira.itch.io/a-long-long-story-demo" target="_blank">Click to play it on itch.io 点击在itch.io玩</a></h5>
+                                            <video width="640" height="360" controls>
+                                                <source src="gamevideo/apple1clip.mp4" type="video/mp4">
+                                                Your browser does not support the video tab. 您的浏览器不支持视频标签。
+                                              </video> 
+                                            <p>This is a refreshing side-scrolling exploration game, created to showcase the childhood and life experiences of my original character, Cider Willo the Apple Cat. As a practice project, this demo features elements like item collection, map transitions, and game art. I have created the character and some of the artwork from scratch.</p>
+                                            <p>这是一款画风清新的横版探索游戏，旨在展示我的原创角色苹果猫（Cider Willo）的童年和人生经历。作为练习项目，这个demo包含了收集要素、地图切换和游戏美术等内容。我原创了角色和部分美术作品。</p>
+                                        </li>
+                                        <br><div class="subdivider"></div><br>
+                                        <li>
+                                            <h4>Game 3: <i>The Circle｜“圆”</i></h4>
+                                            <h5>Text adventure game, 2024, Inky.<br>文字冒险游戏</h5>
+                                            <h5><a href="https://julyanira.itch.io/thecircle" target="_blank">Click to play it on itch.io (English Version)</a></h5>
+                                            <h5><a href="https://julyanira.itch.io/thecirclechinese" target="_blank">点击在itch.io玩（中文版）</a></h5>
+                                            <video width="640" height="360" controls>
+                                                <source src="gamevideo/circle.mp4" type="video/mp4">
+                                                Your browser does not support the video tab. 您的浏览器不支持视频标签。
+                                            </video> 
+                                              <p><i>The Circle</i> is a short text adventure game in which you will speak in the first person to the strange entity known as The Circle. Will you discover its secrets, or will you die in confusion? It's all up to you. There are multiple branching endings. The inspiration for this game came from the idea of splitting myself into two parts: "The Circle" and "The Player's Perspective."</p>
+                                              <p>《圆》是一款简短的文字冒险游戏，你将以第一人称与名为“圆”的神秘存在对话。你能揭开它的秘密，还是会在迷茫中死去？一切都由你决定。游戏拥有多个分支结局。创作此游戏的灵感来源于我将自己分裂成两部分：“圆”和“玩家视角”。</p>
+                                        </li>
+                                        <br><div class="subdivider"></div><br>
+                                        <li>
+                                            <h4>Game 4: <i>Magic Dream｜魔法之梦</i></h4>
+                                            <h5>Visual novel, 2024, Renpy.<br>视觉小说</h5>
+                                                <p>The game has not been released online yet.<br>游戏暂未线上发行。</p>
+                                            <video width="640" height="360" controls>
+                                                    <source src="gamevideo/magic.mov" type="video/mp4">
+                                                    Your browser does not support the video tab. 您的浏览器不支持视频标签。
+                                            </video> 
+                                                <p>This is a simple and heartwarming visual novel I created, centered around my character, Mansikka—a dessert witch and the embodiment of the "Strawberry Fairy Tale World." The story begins when the player finds themselves in an unfamiliar snowy landscape shortly before Christmas and meets Mansikka. Together, they experience a series of warm and delightful events.
+                                                    <br>The game features commissioned artwork by other artists, including the character’s costume design. I conceived the character's backstory and setting and wrote the script.</p>
+                                                <p>这是我制作的一款简单而温暖的视觉小说作品，围绕我的角色Mansikka展开。她是一位甜点魔女，也是“草莓童话世界”的化身。故事从圣诞节前夕，玩家在陌生的雪地中遇见Mansikka开始，随后发生了一系列有趣而温馨的故事。
+                                                    <br>游戏美术由其他画师完成，包括人物的服装设计。我构思了角色的背景故事和设定，并亲自撰写了剧本。</p>
+                                        </li>
+                                    </ul>
+                </div>
+                <br><div class="subdivider"></div><br>
+                <div class="series">
+                    <h3>3D Game|三维游戏</h3>
+                    <ul>
+                    <li>
+                        <h4> Game 1: <i>Interstellar Snowfall｜星际雪降</i></h4>
+                        <h5>3D collecting and adventure game, 2023-2024, unity</h5>
+                            <p>The game has not been released online yet.<br>游戏暂未线上发行。</p>
+                        <h5><p>Downloadable app for mac 可下载mac版本: </p>
+                            <a href="https://drive.google.com/drive/folders/1BjC5MjPYJBHswQ55SpJOcyccdxAWrIR0?usp=drive_link" target="Interstellar Snowfall.app">2.5GB.app google drive link</a>
+                            <br>
+                            <a href="https://drive.google.com/file/d/13NvjZ7P-9_Pdefk88bJXxVZdnpKINAvf/view?usp=drive_link" target="Interstellar Snowfall.app">1.54GB.zip google drive link</a>
+                        </h5>
+                            <p>icon:</p>
+                        <img src="gamevideo/icon.JPG" alt="Description" style="width: 200px; height: 200px;" /><br>
+                        <video width="640" height="360" controls>
+                            <source src="gamevideo/Demo_video.mov" type="video/mp4">
+                            Your browser does not support the video tab. 您的浏览器不支持视频标签。
+                         </video> 
+                            <p><i>Interstellar Snowfall</i> is a 3D exploration and collection game. The protagonist lands on a vast snowy plain, embarking on a mysterious journey. To uncover the eternal memories of this snowfield, they must find 10 fragments scattered throughout. Each stage grows increasingly challenging, culminating in a leap off the edge of the planet to embrace rebirth.
+                                <br>Blending uncanny aesthetics with a snowfield sci-fi theme, the game incorporates AI-generated art, text, and music sourced from the web. In the final stage, a humanoid model of myself appears, symbolizing the end of my journey.</p>
+                            <p>《星际雪降》是一款3D探索收集游戏。主人公降落在一片广袤的雪原，开启了一段奇妙旅程。为了揭开这片雪原永不消逝的记忆，主人公需要寻找散落的10个碎片。每个阶段的环境愈加严峻，最终，主人公将跳下星球边际的悬崖，迎来重生。
+                                <br>游戏结合了怪核风格与雪原主题的科幻美学，运用了AI生成的美术与文字，以及来源网络的音乐素材。在最后的关卡中，出现了我的人型建模，象征着我的旅程也在此结束。
+                            </p>
+                    </li>
+                    </ul>
+                </div>
+            </section>
+<br><div class="divider"></div><br>
+            <section id="video">
+                <h2>Video 视频</h2>
+                <!-- <p>这里展示视频作品。</p> -->
+                 <p>My videos are in the form of short documentaries of my musings on life, most of which stem from the vegetation and animals of downtown Chicago. These videos are the realization of fantasies of the natural world in my head and reflections on real life.</p>
+                 <p>我的视频以纪录短片的形式记录了我对生活的思考，其中大部分源自芝加哥市中心的植物和动物。这些视频是我脑海中对自然世界幻想的实现，也是对现实生活的反思。</p>
+                <div class="series">
+                    <h4>Video 1: <i>Nowhere, Now-here｜无处，此刻</i></h4>
+                    <h5>1-channel video with digital sound, 2min. 29sec.</h5>
+                    <p><a href="https://vimeo.com/876957153" target="_blank">Click to watch it on vimeo 点击在vimeo观看</a></p>
+                    <!-- <video width="640" height="360" controls>
+                        <source src="video/Nowhere, Now-Here.mp4" type="video/mp4">
+                        Your browser does not support the video tab. 您的浏览器不支持视频标签。
+                      </video>                       -->
+                      <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/876957153?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nowhere, Now-Here"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                    <p><i>Nowhere, Now-Here</i> is a video that considers the link between the modern city and nature, and attempts to explore where the real me is. There is a kind of spiritual Druidic practice embedded in the work - I explore the mystery of human and nature worship by touching and feeling the bark of a tree to resonate with it in a spiritual way. Gaining energy from nature helps me to think about my deep connection to nature as a human being in the middle of a culture clash.</p>
+                    <p>《无处，此刻》是一个思考现代城市与自然的联系，以及试图探索真实的我身处何处的作品。作品中蕴含一种灵性上的德鲁伊实践——我通过抚摸树木的表皮来和它进行灵魂上的共鸣，探索人类与自然崇拜的奥秘。从自然中获得能量，帮助我在面对文化冲突时对于我作为人类与自然深度联系的思考。
+                    </p>
+                </div>
+                <br><div class="subdivider"></div><br>
+                <div class="series">
+                    <h4>Video 2: <i>When You Sink｜当你沉没</i></h4>
+                    <h5>1-channel HD video with digital sound, 7min. 36sec.</h5>
+                    <p><a href="https://vimeo.com/876958955" target="_blank">Click to watch it on vimeo 点击在vimeo观看</a></p>
+                    <!-- <video width="640" height="360" controls>
+                        <source src="video/When You Sink.mp4" type="video/mp4">
+                        Your browser does not support the video tab. 您的浏览器不支持视频标签。
+                      </video>   -->
+                    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/876958955?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="When You Sink"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                    <p>What will I find as my soul wanders around the neighborhood? As the real world sinks into the ocean, will environmental pollution be drowned out by the blue?</p>
+                    <p>当我的灵魂在附近游荡时，我会发现什么？当现实世界沉入海洋，环境污染会被蓝色淹没吗？</p>
+                </div>
+                <br><div class="subdivider"></div><br>
+                <div class="series">
+                    <h4>Video 3: <i>Untitled｜无题</i></h4>
+                    <h5>1-channel HD video with digital sound, 2min. 13sec.</h5>
+                    <p><a href="https://vimeo.com/1026342965" target="_blank">Click to watch it on vimeo 点击在vimeo观看</a></p>
+                    <!-- <video width="640" height="360" controls>
+                        <source src="video/Untitled.mp4" type="video/mp4">
+                        Your browser does not support the video tab. 您的浏览器不支持视频标签。
+                      </video>   -->
+                    <div style="padding:42.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1026342965?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Untitled"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                    <p>Motion and stillness, continuity and discontinuity.</p>
+                    <p>运动与静止，连续性与间断性。</p>
+                </div>
+                <br><div class="subdivider"></div><br>
+                <div class="series">
+                    <h4>Video 4: <i>Music Visualization-Mozart｜音乐可视化-莫扎特</i></h4>
+                    <h5>1-channel HD video with piano music, 2min. 25sec.</h5>
+                    <p>The video has not been released on public platforms yet.<br>视频暂未发布到公共平台。</p>
+                    <video width="640" height="360" controls>
+                        <source src="video/Music Visualization-Mozart.mp4" type="video/mp4">
+                        Your browser does not support the video tab. 您的浏览器不支持视频标签。
+                      </video>  
+                      <p>In fact, there are many transient phenomena in nature that can be transformed. In some form, they can become tangible and exist forever. Some chaotic phenomena also have a certain order behind them, but we haven't discovered it yet. Because I have studied piano and been exposed to classical music for a long time, I try to blend sound and art into a visual artistic effect. I aim to create new media that can be either static or dynamic. I add my piano music to the soundtrack, based on the one-to-one correspondence of notes with different colors, and convert the ephemeral music into a work of digital media with epochal significance.</p>
+                      <p>事实上，自然界中有许多短暂的现象可以被转化。在某种形式下，它们可以变得具体并永恒存在。一些混乱的现象背后也隐藏着某种秩序，但我们尚未发现它。由于我长期学习钢琴并接触古典音乐，我尝试将声音与艺术融合，形成一种视觉艺术效果。我力图创作一种既可以静态也可以动态的新媒体。我将我的钢琴音乐加入到配乐中，根据音符与不同颜色之间的一一对应关系，将短暂的音乐转化为具有时代意义的数字媒体艺术作品。</p>
+                      <img src="video/Submission1.jpg" alt="Description" style="width: 660px; height: 400px;" />
+                </div>
+                <br><div class="subdivider"></div><br>
+                <div class="series">
+                    <h4>Video 5: <i>Rhythmic Patterns｜律动的图案</i></h4>
+                    <h5>Silent video, 1-channel HD video, 0 minutes 31 seconds.</h5>
+                    <!-- <video width="640" height="360" controls>
+                        <source src="video/P1.mp4" type="video/mp4">
+                        Your browser does not support the video tab. 您的浏览器不支持视频标签。
+                      </video>   -->
+                      <div style="padding:66.79% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1036911299?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Group work in film class"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                    <p>This is a stop-motion animation video created as a group project. I contributed by providing props, ideas, some of the shooting, editing, and more. The video showcases a rhythmic movement through the arrangement of colors and patterns of various objects, presenting a visual representation of a rule-based motion.</p>
+                    <p>这是一个小组合作的定格动画视频，我负责提供道具、构思、部分拍摄和剪辑等工作。视频通过一系列物品的颜色和图案排列，展示了一种规则性的运动，呈现出独特的视觉效果。</p>
+                </div>
+            </section>
+            <br><div class="divider"></div><br>
+            <section id="physical_mixed">
+                <h2>Physical|实体作品</h2>
+                <div class="series">
+                    <h4>Neon: <i>Flying Head｜飞翔的头颅</i></h4>
+                    <h5>Installation, 2023, Neon on the wall</h5>
+                    <p>This neon artwork reflects my fascination with unusual gore films. The original design is inspired by a sketch of me separating my head from my body. In the piece, the green and blue areas represent rational thought, while the red symbolizes the erupting "thought blood"—a visual metaphor for intense, occult thinking. The inspiration for this piece comes from the music of the Japanese artist Maretu.</p>
+                    <p>这件霓虹作品展现了我对独特血腥电影的兴趣。原始设计灵感来自一幅我将头部与身体分离的草图。作品中，绿色和蓝色部分代表理性思维，而红色则象征着喷发的“思维之血”，是对剧烈、玄秘思维的视觉隐喻。这件作品的灵感来源于日本音乐家Maretu的歌曲。</p>
+ <!-- 横版视频 -->
+ <div class="video-container">
+    <video class="neon-video" controls>
+        <source src="physical/neonpic/MVI_8351.MP4" type="video/mp4">
+        <video width="640" height="360" controls></video>
+        Your browser does not support the video tab. 您的浏览器不支持视频标签。
+    </video>
+    <video class="neon-video" controls>
+        <source src="physical/neonpic/MVI_8352.MP4" type="video/mp4">
+        Your browser does not support the video tab. 您的浏览器不支持视频标签。
+    </video>
+</div>
+
+<!-- 霓虹灯作品图 -->
+<div class="image-gallery">
+    <div class="neon-img">
+        <img src="physical/neonpic/neon1.JPG" alt="">
+    </div>
+    <div class="neon-img">
+        <img src="physical/neonpic/neon2.JPG" alt="">
+    </div>
+    <div class="neon-img">
+        <img src="physical/neonpic/neon3.JPG" alt="">
+    </div>
+    <div class="neon-img">
+        <img src="physical/neonpic/neon5.JPG" alt="">
+    </div>
+    <div class="neon-img">
+        <img src="physical/neonpic/neon9.JPG" alt="">
+    </div>
+    <div class="neon-img">
+        <img src="physical/neonpic/neon7.JPG" alt="Ne">
+    </div>
+    <div class="neon-img">
+        <img src="physical/neonpic/neon4.JPG" alt="Ne">
+    </div>
+    <div class="neon-img">
+        <img src="physical/neonpic/neon8.JPG" alt="Ne">
+    </div>
+    <div class="neon-img">
+        <img src="physical/neonpic/neon10.JPG" alt="Neon Wide Horizontal 2">
+    </div>
+
+    <!-- 草图 -->
+    <div class="neon-img small">
+        <img src="physical/neonpic/sketch.jpg" alt="Neon Sketch">
+    </div>
+    <div class="neon-img small">
+        <img src="physical/neonpic/neon6.png" alt="Neon Sketch">
+    </div>
+</div>
+</div>
+                <br><div class="subdivider"></div><br>
+                <div class="series">
+                    <h4><i>Beijing Weather Visualizer｜远程天气可视化</i></h4>
+                    <h5>Installation, 2023-2024, coding and microcontrollers, p5js, Arduino</h5>
+                    <p><a href="https://github.com/JulyAnira/Beijing_Weather" target="_blank">Click to see my code 点击查看源代码</a></p>
+                    <video width="450" height="450" controls>
+                        <source src="physical/IMG_9801.mov" type="video/mp4">
+                        Your browser does not support the video tab. 您的浏览器不支持视频标签。
+                      </video>  
+                    <p>The <i>Beijing Weather Visualizer</i>is a small project designed to display real-time weather information for Beijing. Since I am based in Chicago and my family lives in Beijing, I wanted a way to keep them updated on the weather. The device uses p5.js to fetch weather forecasts online through an API, displaying tomorrow’s date, weather, and temperature. <br>
+                        Using an 8x8 LED matrix, the project shows simple icons representing sunny or rainy weather. When there’s a high chance of rain in Beijing, it will display a 🌧️ icon, and when the weather is clear, a 🌞 icon. This project serves as a small, functional desk companion, reminding me and my family about the weather every day. </p>
+                    <p>《远程天气可视化》是一个小型项目，旨在实时显示北京的天气信息。由于我身处芝加哥，家人们则在北京，我希望能够及时了解并提醒他们天气状况。这个设备通过 p5.js 从天气 API 获取天气预报，显示明天的日期、天气和温度。<br>
+                        项目通过一个 8x8 的 LED 点阵显示晴天或雨天的图标。如果北京明天的降雨概率较高，它会显示🌧️图标，若天气晴朗，则显示🌞图标。这个项目看起来简单，可以放在书桌上，每天提醒我和家人关注天气变化。 </p>
+                </div>
+                <br><div class="subdivider"></div><br>
+                <div class="series">
+                    <h4><i>Digital Awakening｜脱离电波</i></h4>
+                    <h5>Gif, 2024, coding and microcontrollers, Ardunio</h5>
+                    <img src="physical/IMG_8864.gif" alt="Description" style="width: 540px; height: 360px;" />
+                    <p>This is an artwork created using a combination of LED lights and digital displays to form a dynamic GIF. Through techniques such as montage, frame abstraction, and blurring, I aim to evoke a sense of steam-punk, electronic waves, and a dreamlike technological atmosphere. The piece conveys a sense of alienation and unease, as if microcontrollers in the real world have gained self-awareness. It represents the intrusion of networks and code into the physical world, creating an unsettling, environmentally unfriendly environment. Original code from my professor Shawn Decker. </p>
+                    <p>这是一件通过LED灯和数字显示屏结合制作的艺术作品，呈现为一个动态GIF。通过蒙太奇、抽帧和模糊等技法，作品营造了蒸汽电波和科技梦境般的氛围。它传达了一种微控制器在现实世界中获得自我意识的异化感，仿佛网络和编码进入了物理世界，带来了不安和环境不友好的情感。代码来自我的教授Shawn Decker。</p>
+                </div>
+            </section>
+<br><div class="divider"></div><br>
+            <section id="character_story">
+                <h2>Character Story|OC故事</h2>
+                <h3><a href="ocpart/web_myoc1/index.html" target="_blank">Webpage 1: commissions of character Mansikka by other artists</a></h3>
+                <p>under construction…完善中</p>
+            </section>
+<br><div class="divider"></div><br>
+            <section id="others">
+                <h2>others|其他尝试</h2>
+                <div class="accordion-container">
+                    <button class="accordion">Photography｜摄影</button>
+                        <div class="panel">
+                            <div class="image-grid">
+                                <img class="image-thumb" src="other/photo/photo1.jpg" alt="photo1">
+                                <img class="image-thumb" src="other/photo/photo2.jpg" alt="photo2">
+                                <img class="image-thumb" src="other/photo/photo3.jpg" alt="photo3">
+                                <img class="image-thumb" src="other/photo/photo4.jpg" alt="photo4">
+                                <img class="image-thumb" src="other/photo/photo5.jpg" alt="photo5">
+                                <img class="image-thumb" src="other/photo/photo6.jpg" alt="photo6">
+                                <img class="image-thumb" src="other/photo/photo7.jpg" alt="photo7">
+                                <img class="image-thumb" src="other/photo/photo8.jpg" alt="photo8">
+                                <img class="image-thumb" src="other/photo/photo9.jpg" alt="photo9">
+                                <img class="image-thumb" src="other/photo/photo10.jpg" alt="photo10">
+                                <img class="image-thumb" src="other/photo/photo11.jpg" alt="photo11">
+                                <img class="image-thumb" src="other/photo/photo12.jpg" alt="photo12">
+                                <img class="image-thumb" src="other/photo/photo13.jpg" alt="photo13">
+                                <img class="image-thumb" src="other/photo/photo14.jpg" alt="photo14">
+                                <img class="image-thumb" src="other/photo/photo15.jpg" alt="photo15">
+                                <img class="image-thumb" src="other/photo/photo16.jpg" alt="photo16">
+                                <img class="image-thumb" src="other/photo/photo17.jpg" alt="photo17">
+                                <img class="image-thumb" src="other/photo/photo18.jpg" alt="photo18">
+                                <img class="image-thumb" src="other/photo/photo19.jpg" alt="photo19">
+                                <img class="image-thumb" src="other/photo/photo20.jpg" alt="photo20">
+                                <img class="image-thumb" src="other/photo/photo21.jpg" alt="photo21">
+                                <img class="image-thumb" src="other/photo/photo22.jpg" alt="photo22">
+                                <img class="image-thumb" src="other/photo/photo23.jpg" alt="photo23">
+                                <img class="image-thumb" src="other/photo/photo24.jpg" alt="photo24">
+                                <img class="image-thumb" src="other/photo/photo25.jpg" alt="photo25">
+                                <img class="image-thumb" src="other/photo/photo26.jpg" alt="photo26">
+                                <img class="image-thumb" src="other/photo/photo27.jpg" alt="photo27">
+                                <img class="image-thumb" src="other/photo/photo28.jpg" alt="photo28">
+                                <img class="image-thumb" src="other/photo/photo29.jpg" alt="photo29">
+                                <img class="image-thumb" src="other/photo/photo30.jpg" alt="photo30">
+                                <img class="image-thumb" src="other/photo/photo31.jpg" alt="photo31">
+                                <img class="image-thumb" src="other/photo/photo32.jpg" alt="photo32">
+                                <img class="image-thumb" src="other/photo/photo33.jpg" alt="photo33">
+                                <img class="image-thumb" src="other/photo/photo34.jpg" alt="photo34">
+                                <img class="image-thumb" src="other/photo/photo35.jpg" alt="photo35">
+                                <img class="image-thumb" src="other/photo/photo36.jpg" alt="photo36">
+                                <img class="image-thumb" src="other/photo/photo37.jpg" alt="photo37">
+                                <img class="image-thumb" src="other/photo/photo38.jpg" alt="photo38">
+                                <img class="image-thumb" src="other/photo/photo39.jpg" alt="photo39">
+                                <img class="image-thumb" src="other/photo/photo40.jpg" alt="photo40">
+                                <img class="image-thumb" src="other/photo/photo41.jpg" alt="photo41">
+                                <img class="image-thumb" src="other/photo/photo42.jpg" alt="photo42">
+                                <img class="image-thumb" src="other/photo/photo43.jpg" alt="photo43">
+                                <img class="image-thumb" src="other/photo/photo44.jpg" alt="photo44">
+                                <img class="image-thumb" src="other/photo/photo45.jpg" alt="photo45">
+                                <img class="image-thumb" src="other/photo/photo46.jpg" alt="photo46">
+                                <img class="image-thumb" src="other/photo/photo47.jpg" alt="photo47">
+                                <img class="image-thumb" src="other/photo/photo48.jpg" alt="photo48">
+                                <img class="image-thumb" src="other/photo/photo49.jpg" alt="photo49">
+                                <img class="image-thumb" src="other/photo/photo50.jpg" alt="photo50">
+                                <img class="image-thumb" src="other/photo/photo51.jpg" alt="photo51">
+                                <img class="image-thumb" src="other/photo/photo52.jpg" alt="photo52">
+                                <img class="image-thumb" src="other/photo/photo53.jpg" alt="photo53">
+                                <img class="image-thumb" src="other/photo/photo54.jpg" alt="photo54">
+                                <img class="image-thumb" src="other/photo/photo55.jpg" alt="photo55">
+                                <img class="image-thumb" src="other/photo/photo56.jpg" alt="photo56">
+                                <img class="image-thumb" src="other/photo/photo57.jpg" alt="photo57">
+                                <img class="image-thumb" src="other/photo/photo58.jpg" alt="photo58">
+                                <img class="image-thumb" src="other/photo/photo59.jpg" alt="photo59">
+                                <img class="image-thumb" src="other/photo/photo60.jpg" alt="photo60">
+                                <img class="image-thumb" src="other/photo/photo61.jpg" alt="photo61">
+                                <img class="image-thumb" src="other/photo/photo62.jpg" alt="photo62">
+                                <img class="image-thumb" src="other/photo/photo63.jpg" alt="photo63">
+                                <img class="image-thumb" src="other/photo/photo64.jpg" alt="photo64">
+                                <img class="image-thumb" src="other/photo/photo65.jpg" alt="photo65">
+                                <img class="image-thumb" src="other/photo/photo66.jpg" alt="photo66">
+                                <img class="image-thumb" src="other/photo/photo67.jpg" alt="photo67">
+                                <img class="image-thumb" src="other/photo/photo68.jpg" alt="photo68">
+                                <img class="image-thumb" src="other/photo/photo69.jpg" alt="photo69">
+                                <img class="image-thumb" src="other/photo/photo70.jpg" alt="photo70">
+                                <img class="image-thumb" src="other/photo/photo71.jpg" alt="photo71">
+                                <img class="image-thumb" src="other/photo/photo72.jpg" alt="photo72">
+                                <img class="image-thumb" src="other/photo/photo73.jpg" alt="photo73">
+                                <img class="image-thumb" src="other/photo/photo74.jpg" alt="photo74">
+                                <img class="image-thumb" src="other/photo/photo75.jpg" alt="photo75">
+                                <img class="image-thumb" src="other/photo/photo76.jpg" alt="photo76">
+                                <img class="image-thumb" src="other/photo/photo77.jpg" alt="photo77">
+                                <img class="image-thumb" src="other/photo/photo78.jpg" alt="photo78">
+                                <img class="image-thumb" src="other/photo/photo79.jpg" alt="photo79">
+                                <img class="image-thumb" src="other/photo/photo80.jpg" alt="photo80">
+                                <img class="image-thumb" src="other/photo/photo81.jpg" alt="photo81">
+                                <img class="image-thumb" src="other/photo/photo82.jpg" alt="photo82">
+                                
+                                
+                                
+                            </div>
+                        </div>
+                </div>
+                <div class="accordion-container">
+                    <button class="accordion">Sketch｜草稿</button>
+                        <div class="panel">
+                            <div class="image-grid">
+                                <img class="image-thumb" src="other/othersketch/sketch1.jpg" alt="sketch1">
+                                <img class="image-thumb" src="other/othersketch/sketch2.jpg" alt="sketch2">
+                                <img class="image-thumb" src="other/othersketch/sketch3.jpg" alt="sketch3">
+                                <img class="image-thumb" src="other/othersketch/sketch4.jpg" alt="sketch4">
+                                <img class="image-thumb" src="other/othersketch/sketch5.jpg" alt="sketch5">
+                                <img class="image-thumb" src="other/othersketch/sketch6.jpg" alt="sketch6">
+                                <img class="image-thumb" src="other/othersketch/sketch7.jpg" alt="sketch7">
+                                <img class="image-thumb" src="other/othersketch/sketch8.jpg" alt="sketch8">
+                                <img class="image-thumb" src="other/othersketch/sketch9.jpg" alt="sketch9">
+                                <img class="image-thumb" src="other/othersketch/sketch10.jpg" alt="sketch10">
+                                <img class="image-thumb" src="other/othersketch/sketch11.jpg" alt="sketch11">
+                                <img class="image-thumb" src="other/othersketch/sketch12.jpg" alt="sketch12">
+                                <img class="image-thumb" src="other/othersketch/sketch13.jpg" alt="sketch13">
+                                <img class="image-thumb" src="other/othersketch/sketch14.jpg" alt="sketch14">
+                                <img class="image-thumb" src="other/othersketch/sketch15.jpg" alt="sketch15">
+                                <img class="image-thumb" src="other/othersketch/sketch16.jpg" alt="sketch16">
+                                <img class="image-thumb" src="other/othersketch/sketch17.jpg" alt="sketch17">
+                                <img class="image-thumb" src="other/othersketch/sketch18.jpg" alt="sketch18">
+                                <img class="image-thumb" src="other/othersketch/sketch19.jpg" alt="sketch19">
+                                <img class="image-thumb" src="other/othersketch/sketch20.jpg" alt="sketch20">
+                                <img class="image-thumb" src="other/othersketch/sketch21.jpg" alt="sketch21">
+                                <img class="image-thumb" src="other/othersketch/sketch22.jpg" alt="sketch22">
+                                <img class="image-thumb" src="other/othersketch/sketch23.jpg" alt="sketch23">
+                                <img class="image-thumb" src="other/othersketch/sketch24.jpg" alt="sketch24">
+                                <img class="image-thumb" src="other/othersketch/sketch25.jpg" alt="sketch25">
+                                <img class="image-thumb" src="other/othersketch/sketch26.jpg" alt="sketch26">
+                                <img class="image-thumb" src="other/othersketch/sketch27.jpg" alt="sketch27">
+                                <img class="image-thumb" src="other/othersketch/sketch28.jpg" alt="sketch28">
+                                <img class="image-thumb" src="other/othersketch/sketch29.jpg" alt="sketch29">
+                                <img class="image-thumb" src="other/othersketch/sketch30.jpg" alt="sketch30">
+                                <img class="image-thumb" src="other/othersketch/sketch31.jpg" alt="sketch31">
+                                <img class="image-thumb" src="other/othersketch/sketch32.jpg" alt="sketch32">
+                                <img class="image-thumb" src="other/othersketch/sketch33.jpg" alt="sketch33">
+                                <img class="image-thumb" src="other/othersketch/sketch34.jpg" alt="sketch34">
+                                <img class="image-thumb" src="other/othersketch/sketch35.jpg" alt="sketch35">
+                                <img class="image-thumb" src="other/othersketch/sketch36.jpg" alt="sketch36">
+                                <img class="image-thumb" src="other/othersketch/sketch37.jpg" alt="sketch37">
+                                <img class="image-thumb" src="other/othersketch/sketch38.jpg" alt="sketch38">
+                                <img class="image-thumb" src="other/othersketch/sketch39.jpg" alt="sketch39">
+                                <img class="image-thumb" src="other/othersketch/sketch40.jpg" alt="sketch40">
+                                <img class="image-thumb" src="other/othersketch/sketch41.jpg" alt="sketch41">
+                                <img class="image-thumb" src="other/othersketch/sketch42.jpg" alt="sketch42">
+                                <img class="image-thumb" src="other/othersketch/sketch43.jpg" alt="sketch43">
+                                <img class="image-thumb" src="other/othersketch/sketch44.jpg" alt="sketch44">
+                                <img class="image-thumb" src="other/othersketch/sketch45.jpg" alt="sketch45">
+                                <img class="image-thumb" src="other/othersketch/sketch46.jpg" alt="sketch46">
+                                <img class="image-thumb" src="other/othersketch/sketch47.jpg" alt="sketch47">
+                                <img class="image-thumb" src="other/othersketch/sketch48.jpg" alt="sketch48">
+                            </div>
+                        </div>
+                </div>
+            </section>            
+<br><div class="divider"></div><br>
+            <section id="contact">
+                <h2>Contact|联系我</h2>
+                <h3>Preferred:
+                    <br>Email:ys.hou2022@gamil.com
+                    <br>julyaniran@gmail.com
+                    <br>Instagram: <a href="https://www.instagram.com/julyanira/profilecard/?igsh=YjdqdnQwa2x3Y3hx" target="_blank">@julyanira</a></h3>
+                    
+                    <p>Other:
+                    <br>linkedin: <a href="/linkedin.com/in/yishan-hou-91477b329" target="_blank">Yishan Hou</a>
+                    <br>X: <a href="" target="_blank">@JulyANR_</a>
+                    <br>xiaohongshu 小红书: <a href="https://www.xiaohongshu.com/user/profile/60de650a000000002002e762?xhsshare=CopyLink&appuid=60de650a000000002002e762&apptime=1733526069&share_id=4af4790387da4a7a96f66ddeb3f16d32" target="_blank">9545940982</a>
+                    <br>Bilibili: <a href="https://b23.tv/sLpWtnn" target="_blank">七月之瑜</a>  
+                    <br>Devient art: <a href="//www.deviantart.com/julyanira" target="_blank">julyanira</a>
+                    <br>Pixiv: JulyAnira  <a href="https://www.pixiv.net/users/85469143" target="_blank">JulyAnira</a>         
+                    <br>itch.io: <a href="https://julyanira.itch.io/" target="_blank">JulyAnira</a>
+                    </p>
+
+                    <h3>
+                    <br>Please contact me via email for a quicker response; other platforms may not receive immediate replies.
+                    <br>请直接用邮箱联系我，其它方式可能不会第一时间回复。</h3>
+            </section>
+            <br><div class="divider"></div><br>
+        </main>
+    </div>
+    <!-- Lightbox (弹窗) -->
+<div id="lightbox" class="lightbox">
+    <div class="lightbox-content">
+        <span class="close-btn" id="close-btn">&times;</span>
+        <span class="arrow-btn left-arrow" id="left-arrow">&#8249;</span>
+        <img id="lightbox-image" src="" alt="">
+        <span class="arrow-btn right-arrow" id="right-arrow">&#8250;</span>
+        <div id="lightbox-description" class="description"></div>
+    </div>
+</div>
+<div id="lightbox" class="lightbox">
+    <div class="lightbox-content">
+        <span class="close-btn" id="close-btn">&times;</span>
+        <span class="arrow-btn left-arrow" id="left-arrow">&#8249;</span>
+        <img id="lightbox-image" src="" alt="">
+        <span class="arrow-btn right-arrow" id="right-arrow">&#8250;</span>
+        <div id="lightbox-description" class="description"></div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
