@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>❤❤Animals❤❤</title>
+    <style>
+        body {
+            background-color: rgba(255, 255, 0, 0.3);
+            margin: 0;
+            overflow: scroll;
+            background-image: url('IMG_6254.GIF');
+            background-repeat: repeat;
+            background-size: 300px 300px;
+        }
+
+        h1 {
+            font-size: 200px;
+            color: hotpink;
+            text-align: center;
+            -webkit-text-stroke: 3px darkblue; 
+            text-stroke: 100px darkblue; 
+            text-shadow: 10px 10px yellow; 
+        }
+       h2 {
+            font-size: 50px; 
+            text-shadow: 4px 4px orange;
+            text-align: center;
+        }
+        h3 {
+            font-size: 60px; 
+            text-shadow: 4px 4px hotpink;
+            color: darkred;
+            text-align: center;
+        }
+
+        @keyframes moveLeftToRight {
+            0% {
+                transform: translateX(-100%); 
+            }
+            100% {
+                transform: translateX(100%); 
+            }
+        }
+
+        
+        @keyframes rotateImage {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes moveUpAndDown {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        img.nyan {
+            animation: moveLeftToRight 5s linear infinite; 
+        }
+
+        img.cry {
+            animation: rotateImage 5s linear infinite; 
+        }
+
+        /* Zoom in effect for dog images */
+        .dog {
+            animation: moveUpAndDown 2s ease-in-out infinite, rotateImage 5s linear infinite; 
+            cursor: pointer; 
+            transition: transform 0.3s ease; 
+        }
+
+        /* Apply zoom effect on hover */
+        .dog:hover {
+            transform: scale(1.2); /* Increase the size on hover */
+        }
+
+        img {
+            display: block;
+            margin: auto;
+            text-align: center;
+        }
+
+        /* Apply gradient background to .Line1 */
+        .Line1 {
+            background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+            width: 50%;
+            border: 12px dashed orange;
+            box-shadow: 0px 20px 0px red;
+        }
+
+        p {
+            margin: 90px;
+            padding: 10px;
+            background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet); 
+            font-size: 40px;
+            border: 12px dotted yellowgreen;
+            box-shadow: 0px 20px 0px lightyellow;
+            text-shadow: 2px 2px red;
+            text-align: center;
+            background-clip: text; 
+            -webkit-background-clip: text; 
+            color: transparent; 
+        }
+
+        .Miao {
+            background-color: yellow;
+            width: 50%;
+        }
+
+        .small-banana {
+            width: 200px; 
+            height: auto;
+        }
+        .non-clickable {
+            pointer-events: none;
+        }
+
+        /* Keyframes for mango.jpeg animation */
+        @keyframes moveMango {
+            0% {
+                transform: translate(0, 0);
+            }
+            25% {
+                transform: translate(50px, 50px);
+            }
+            50% {
+                transform: translate(100px, 0);
+            }
+            75% {
+                transform: translate(50px, -50px);
+            }
+            100% {
+                transform: translate(0, 0);
+            }
+        }
+
+        /* Styling for mango.jpeg */
+        .mango {
+            position: absolute;
+            animation: moveMango 5s ease-in-out infinite;
+           
+        }
+
+        /* Rainbow gradient line style */
+        .rainbow-line {
+            text-align: center;
+            font-size: 24px;
+            background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+
+        }
+
+        
+        .note {
+            display: block;
+            margin: auto;
+            text-align: center;
+            background: none; 
+            width: 200px; 
+            height: auto;
+            cursor: pointer; 
+            transition: transform 0.3s ease; 
+        }
+        .note:hover {
+            transform: scale(1.2); 
+        }
+    </style>
+</head>
+<body>
+    <h1>Animals</h1>
+    <h2><a href="https://giphy.com/explore/funny-animal">A collection of animals memes</a></h2>
+        
+    <h3>VIDEOS:</h3>
+    
+    <p>
+    	<a href="https://www.bilibili.com/video/BV1Lk4y117ya/?spm_id_from=333.999.0.0&vd_source=014b7d89c37d717f820de0c99e187b1f">
+        Funny animals (from bilibili)</a>
+        <br> 
+        <a href="https://www.bilibili.com/video/BV1iU4y1d7oU/?spm_id_from=333.999.0.0">
+        2</a>
+        <br> 
+        <a href="https://www.bilibili.com/video/BV1Ct4y1U7GF/?spm_id_from=333.999.0.0&vd_source=014b7d89c37d717f820de0c99e187b1f">
+        and 3</a>
+        <br><br><br>
+        <img src="cry.jpg" class="Miao cry" /><br>
+        <b></b>
+        <i></i>
+    </p>
+
+    <img src="banana.GIF" alt="Banana GIF" class="Line1 small-banana" />
+    <br><br><br>
+    <img src="nyan.GIF" alt="Left-to-Right GIF" class="nyan"> 
+   	<br><br>
+    <div class="mango">
+        <img src="note.GIF" alt="Note GIF" class="note" />
+    </div>
+    <br><br><br><br><br><br><br>
+    
+    <a href="https://www.youtube.com/watch?v=Rk1MYMPDx3s">
+        <img src="dog.jpg" alt="Dog JPG" class="dog" />
+    </a>
+    <br><br><br>
+    <div class="rainbow-line">CLICK THE SEA DOG!</div>
+    <br><br><br><br>
+
+  <style>
+        @keyframes example {
+            from {background-color: red;}
+            to {background-color: yellow;}
+        }
+        
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation-name: example;
+        }
+  </style>
+</body>
+</html>
